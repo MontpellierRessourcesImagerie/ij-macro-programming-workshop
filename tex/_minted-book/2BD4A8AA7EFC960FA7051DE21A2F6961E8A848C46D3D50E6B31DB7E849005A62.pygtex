@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+Hello World!
+Hello \PYGZdq{}World\PYGZdq{}!
+Hello \PYGZdq{}World\PYGZdq{}!
+\PYGZbs{}n inserts a newline
+Hello!
+\end{Verbatim}

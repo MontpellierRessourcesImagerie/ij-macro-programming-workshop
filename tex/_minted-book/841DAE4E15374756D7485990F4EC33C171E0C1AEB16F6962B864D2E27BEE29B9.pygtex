@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{do} \PYG{o}{\PYGZob{}}
+	\PYG{n}{list} \PYG{n}{of} \PYG{n}{statements}
+\PYG{o}{\PYGZcb{}} \PYG{k}{while} \PYG{o}{(}\PYG{n}{condition}\PYG{o}{);}
+\end{Verbatim}

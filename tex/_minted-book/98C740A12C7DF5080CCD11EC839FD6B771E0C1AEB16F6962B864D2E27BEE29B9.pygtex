@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{function} \PYG{n+nf}{name}\PYG{o}{(}\PYG{n}{list} \PYG{n}{of} \PYG{n}{arguments}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+	\PYG{n}{list} \PYG{n}{of} \PYG{n}{statements}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

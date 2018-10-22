@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// a single line comment}
+
+\PYG{c+cm}{/* a multi}
+\PYG{c+cm}{ * line comment}
+\PYG{c+cm}{ */}
+
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}\PYGZbs{}Clear\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Hello World!\PYGZdq{}}\PYG{o}{);} \PYG{c+c1}{// Another comment}
+\end{Verbatim}

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+m+mi}{8} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{2}\PYG{o}{;}
+\PYG{l+m+mi}{8} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{3}\PYG{o}{;}
+\PYG{l+m+mf}{8.5} \PYG{o}{\PYGZpc{}} \PYG{l+m+mf}{0.5}\PYG{o}{;}
+\PYG{l+m+mf}{8.5} \PYG{o}{\PYGZpc{}} \PYG{l+m+mf}{0.8}\PYG{o}{;}
+\PYG{o}{(\PYGZhy{}}\PYG{l+m+mi}{3} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{2}\PYG{o}{);}
+\PYG{l+m+mf}{0.1} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{10}\PYG{o}{;}
+\end{Verbatim}

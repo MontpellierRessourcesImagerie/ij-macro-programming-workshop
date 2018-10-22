@@ -1,0 +1,48 @@
+/**
+  * Create Path Tool
+  *
+  * Creates a polyline or spline path from the point selections in the roi-manager,
+  *  adds everything to the overlay and deletes it from the roi-manager.
+  *
+  * (c) 2012, INSERM
+  * written by Volker Baecker at Montpellier RIO Imaging (www.mri.cnrs.fr)
+ *
+*/
+var FIT_SPLINE = true;
+var helpURL = "http://dev.mri.cnrs.fr/projects/imagej-macros/wiki/Create_Path_Tool_%28manual_tracking%29";
+
+macro "Create Path Action Tool - C037T4d14p" {
+  run("Set Measurements...", "  stack display redirect=None decimal=3");
+  count = roiManager("count");
+  x = newArray(count);
+  y = newArray(count);
+
+  // Loop over the selections in the roi-manager
+  // and store the x and y-coordinates of the 
+  // selections in the arrays x and y.
+  
+  for () {
+  } 
+
+  // Make a polyline selection from the points
+  // in the arrays x and y
+
+
+  if (FIT_SPLINE) run("Fit Spline");
+  run("Add to Manager");
+  roiManager("select", roiManager("Count")-1);
+  roiManager("Remove Slice Info");
+  roiManager("Deselect");
+  run("From ROI Manager");
+  roiManager("Reset");
+}
+
+macro "Create Path Action Tool Options" {
+   Dialog.create("Create Path Tool Options");
+   Dialog.addCheckbox("fit spline", FIT_SPLINE); 
+   Dialog.addMessage("The Create Path Tool Creates a polyline or spline \n from the point selections in the roi-manager, adds \n everything to the overlay and deletes it from the roi-manager.");
+   Dialog.addMessage("Press the help button below to open the online help!");
+   Dialog.addHelp(helpURL);
+   Dialog.show();
+   FIT_SPLINE = Dialog.getCheckbox();
+}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{o}{(}\PYG{n}{initialization}\PYG{o}{;} \PYG{n}{condition}\PYG{o}{;} \PYG{n}{increment}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+	\PYG{n}{list} \PYG{n}{of} \PYG{n}{statements}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

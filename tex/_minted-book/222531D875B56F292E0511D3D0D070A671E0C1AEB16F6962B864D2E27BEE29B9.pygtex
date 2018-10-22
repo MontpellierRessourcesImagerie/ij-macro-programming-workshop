@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+m+mh}{0xFFA900}\PYG{o}{;}	\PYG{c+c1}{// color value that encodes a shade of orange}
+
+\PYG{o}{(}\PYG{l+m+mh}{0xFFA900}\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{l+m+mi}{16}\PYG{o}{)} \PYG{o}{\PYGZam{}} \PYG{l+m+mh}{0xFF}\PYG{o}{;} \PYG{c+c1}{// red}
+\PYG{o}{(}\PYG{l+m+mh}{0xFFA900}\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{l+m+mi}{8}\PYG{o}{)}  \PYG{o}{\PYGZam{}} \PYG{l+m+mh}{0xFF}\PYG{o}{;} \PYG{c+c1}{// green}
+\PYG{l+m+mh}{0xFFA900}       \PYG{o}{\PYGZam{}} \PYG{l+m+mh}{0xFF}\PYG{o}{;} \PYG{c+c1}{// blue}
+
+\PYG{l+m+mi}{0} \PYG{o}{|} \PYG{o}{(}\PYG{l+m+mi}{169}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{l+m+mi}{8}\PYG{o}{)}  \PYG{o}{|} \PYG{o}{(}\PYG{l+m+mi}{255}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{l+m+mi}{16}\PYG{o}{);} \PYG{c+c1}{// create composite value from components}
+
+\PYG{n}{setForegroundColor}\PYG{o}{(}\PYG{l+m+mh}{0xFFA900}\PYG{o}{);}
+\end{Verbatim}

@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{waitForUser}\PYG{o}{;}
+\PYG{n}{shiftPressed} \PYG{o}{=} \PYG{n}{isKeyDown}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}shift\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{altPressed} \PYG{o}{=} \PYG{n}{isKeyDown}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}alt\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{message} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}keys pressed: \PYGZdq{}}\PYG{o}{;}
+\PYG{n}{counter} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{o}{;}
+\PYG{k}{if} \PYG{o}{(}\PYG{n}{shiftPressed}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+	\PYG{n}{message} \PYG{o}{=} \PYG{n}{message} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}SHIFT\PYGZdq{}}\PYG{o}{;}
+	\PYG{n}{counter}\PYG{o}{++;}
+\PYG{o}{\PYGZcb{}}
+\PYG{k}{if} \PYG{o}{(}\PYG{n}{altPressed}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+	\PYG{k}{if} \PYG{o}{(}\PYG{n}{counter}\PYG{o}{\PYGZgt{}}\PYG{l+m+mi}{0}\PYG{o}{)} \PYG{n}{message} \PYG{o}{=} \PYG{n}{message} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}, \PYGZdq{}}\PYG{o}{;}
+	\PYG{n}{message} \PYG{o}{=} \PYG{n}{message} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}ALT\PYGZdq{}}\PYG{o}{;}
+	\PYG{n}{counter}\PYG{o}{++;}
+\PYG{o}{\PYGZcb{}}
+\PYG{k}{if} \PYG{o}{(}\PYG{n}{counter}\PYG{o}{==}\PYG{l+m+mi}{0}\PYG{o}{)} \PYG{n}{message} \PYG{o}{=} \PYG{n}{message} \PYG{o}{+} \PYG{l+s}{\PYGZdq{} NONE\PYGZdq{}}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{message}\PYG{o}{);}
+\end{Verbatim}

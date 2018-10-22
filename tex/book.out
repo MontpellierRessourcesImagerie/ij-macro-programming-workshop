@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Getting Started}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Macros}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Installing Fiji}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Hello World}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.3.1}{Hello World using the log-window}{section.2.3}% 6
+\BOOKMARK [2][-]{subsection.2.3.2}{Hello World using a dialog}{section.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.3.3}{Hello World on an image}{section.2.3}% 8
+\BOOKMARK [1][-]{section.2.4}{Excercises}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{Answers}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{The ImageJ Macro Language}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Comments}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Literals}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Expressions, Operators and Datatypes}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.3.1}{Numbers}{section.3.3}% 15
+\BOOKMARK [2][-]{subsection.3.3.2}{Strings}{section.3.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.3}{Booleans}{section.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.4}{Numbers as Bit-Strings}{section.3.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.5}{Comparison Operations}{section.3.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Variables and Assignments}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.4.1}{Automatic type conversion}{section.3.4}% 21
+\BOOKMARK [2][-]{subsection.3.4.2}{Arrays}{section.3.4}% 22
+\BOOKMARK [1][-]{section.3.5}{Conditional code execution}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.6}{Loops}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.6.1}{The for\205loop}{section.3.6}% 25
+\BOOKMARK [2][-]{subsection.3.6.2}{The while\205loop}{section.3.6}% 26
+\BOOKMARK [2][-]{subsection.3.6.3}{The do\205while\205loop}{section.3.6}% 27
+\BOOKMARK [1][-]{section.3.7}{User\205defined functions}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.7.1}{Variable scope and global variables}{section.3.7}% 29
+\BOOKMARK [2][-]{subsection.3.7.2}{Parameter passing by value and by reference}{section.3.7}% 30

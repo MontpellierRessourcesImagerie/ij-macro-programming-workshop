@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{var} \PYG{n}{a} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}outer\PYGZdq{}}\PYG{o}{;}
+\PYG{n}{show}\PYG{o}{();}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{a}\PYG{o}{);}
+\PYG{n}{function} \PYG{n+nf}{show}\PYG{o}{()} \PYG{o}{\PYGZob{}}
+	\PYG{n}{a} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}inner\PYGZdq{}}\PYG{o}{;}
+	\PYG{n}{print}\PYG{o}{(}\PYG{n}{a}\PYG{o}{);}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

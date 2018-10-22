@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}\PYGZbs{}Clear\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Hello World!\PYGZdq{}}\PYG{o}{);}
+\end{Verbatim}

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{a} \PYG{o}{=} \PYG{n}{getNumber}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Enter a number\PYGZdq{}}\PYG{o}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{);}
+\PYG{k}{if} \PYG{o}{(}\PYG{n}{a}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{0}\PYG{o}{)}
+	\PYG{n}{result} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{n}{a}\PYG{o}{;}
+\PYG{k}{else}
+	\PYG{n}{result} \PYG{o}{=} \PYG{n}{a}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(} \PYG{l+s}{\PYGZdq{}abs(\PYGZdq{}} \PYG{o}{+} \PYG{n}{a} \PYG{o}{+} \PYG{l+s}{\PYGZdq{})=\PYGZdq{}} \PYG{o}{+} \PYG{n}{result}\PYG{o}{);}
+\end{Verbatim}

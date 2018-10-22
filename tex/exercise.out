@@ -1,0 +1,30 @@
+\BOOKMARK [1][-]{section.1}{Options of the package}{}% 1
+\BOOKMARK [1][-]{section.2}{Commands}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Exercises and answers}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Parts and questions}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Exercise selection}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{References}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Extra stuff}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Customisation}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Internationalisation}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Layout}{section.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Exercises, answers and parts}{subsection.3.2}% 11
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Questions, sub-questions and sub-sub-questions}{subsection.3.2}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Lengths}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{The \134renewcounter command}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Known problems}{}% 15
+\BOOKMARK [1][-]{section.5}{Implementation}{}% 16
+\BOOKMARK [2][-]{subsection.5.1}{Package options}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{Customisation}{section.5}% 18
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Internationalisation}{subsection.5.2}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Layout}{subsection.5.2}% 20
+\BOOKMARK [2][-]{subsection.5.3}{Macros definition}{section.5}% 21
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Definition of Exercise}{subsection.5.3}% 22
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Definition of questions}{subsection.5.3}% 23
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Definition of sub-questions and sub-sub-questions}{subsection.5.3}% 24
+\BOOKMARK [3][-]{subsubsection.5.3.4}{ Presentation of part \(within an exercise\)}{subsection.5.3}% 25
+\BOOKMARK [3][-]{subsubsection.5.3.5}{Presentation of answers}{subsection.5.3}% 26
+\BOOKMARK [3][-]{subsubsection.5.3.6}{Exercises selection}{subsection.5.3}% 27
+\BOOKMARK [3][-]{subsubsection.5.3.7}{Some extra stuff}{subsection.5.3}% 28
+\BOOKMARK [3][-]{subsubsection.5.3.8}{Secret stuff}{subsection.5.3}% 29
+\BOOKMARK [2][-]{subsection.5.4}{The \134renewcounter command}{section.5}% 30

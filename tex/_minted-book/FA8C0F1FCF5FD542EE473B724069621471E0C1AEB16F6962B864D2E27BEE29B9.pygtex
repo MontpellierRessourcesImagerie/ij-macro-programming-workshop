@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{run}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Select All\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{run}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Clear\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{initializeTurtle}\PYG{o}{();}
+\PYG{n}{forward}\PYG{o}{(}\PYG{l+m+mi}{100}\PYG{o}{);}
+\PYG{n}{right}\PYG{o}{(}\PYG{l+m+mi}{90}\PYG{o}{);}
+\PYG{n}{forward}\PYG{o}{(}\PYG{l+m+mi}{50}\PYG{o}{);}
+\PYG{n}{left}\PYG{o}{(}\PYG{l+m+mi}{90}\PYG{o}{);}
+\PYG{n}{forward}\PYG{o}{(}\PYG{l+m+mi}{100}\PYG{o}{);}
+\end{Verbatim}

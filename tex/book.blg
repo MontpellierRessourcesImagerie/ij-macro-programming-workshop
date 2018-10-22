@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: book.aux
+The style file: plain.bst
+Database file #1: workshop.bib
+Warning--entry type for "website:double_floating_point_image" isn't style-file defined
+--line 495 of file workshop.bib
+Warning--to sort, need author or key in _754-2008_2008
+Warning--to sort, need author or key in website:double_floating_point_image
+Warning--to sort, need author or key in _ascii_code_1963
+Warning--empty author in _ascii_code_1963
+Warning--empty institution in _ascii_code_1963
+Warning--empty author in _754-2008_2008
+Warning--empty institution in _754-2008_2008
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            560 strings with 5962 characters,
+and the built_in function-call counts, 3592 in all, are:
+= -- 330
+> -- 205
+< -- 0
++ -- 84
+- -- 72
+* -- 278
+:= -- 614
+add.period$ -- 35
+call.type$ -- 12
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 119
+empty$ -- 271
+format.name$ -- 72
+if$ -- 722
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 9
+newline$ -- 61
+num.names$ -- 18
+pop$ -- 88
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 76
+stack$ -- 0
+substring$ -- 135
+swap$ -- 10
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 7
+while$ -- 25
+width$ -- 14
+write$ -- 126
+(There were 8 warnings)

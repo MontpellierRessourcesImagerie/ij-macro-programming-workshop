@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{a} \PYG{o}{=} \PYG{l+m+mi}{10}\PYG{o}{;}
+\PYG{n}{b} \PYG{o}{=} \PYG{l+m+mi}{4}\PYG{o}{;}
+\PYG{k}{if} \PYG{o}{(}\PYG{n}{a}\PYG{o}{\PYGZgt{}=}\PYG{n}{b}\PYG{o}{)}
+	\PYG{n}{result} \PYG{o}{=} \PYG{n}{a}\PYG{o}{;}
+\PYG{k}{else}
+	\PYG{n}{result} \PYG{o}{=} \PYG{n}{b}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}max(\PYGZdq{}}\PYG{o}{+}\PYG{n}{a}\PYG{o}{+}\PYG{l+s}{\PYGZdq{}, \PYGZdq{}}\PYG{o}{+}\PYG{n}{b}\PYG{o}{+}\PYG{l+s}{\PYGZdq{})=\PYGZdq{}} \PYG{o}{+} \PYG{n}{result}\PYG{o}{);}
+\end{Verbatim}

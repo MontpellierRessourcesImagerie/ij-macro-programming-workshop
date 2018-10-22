@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{home} \PYG{o}{=} \PYG{n}{getDirectory}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}home\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{files} \PYG{o}{=} \PYG{n}{getFileList}\PYG{o}{(}\PYG{n}{home}\PYG{o}{);}
+\PYG{k}{for} \PYG{o}{(}\PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{o}{;} \PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{n}{files}\PYG{o}{.}\PYG{n+na}{length}\PYG{o}{;} \PYG{n}{i}\PYG{o}{++)} \PYG{o}{\PYGZob{}}
+	\PYG{n}{file} \PYG{o}{=} \PYG{n}{files}\PYG{o}{[}\PYG{n}{i}\PYG{o}{];}
+	\PYG{n}{print}\PYG{o}{(}\PYG{n}{file}\PYG{o}{);}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

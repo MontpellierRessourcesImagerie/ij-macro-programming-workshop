@@ -1,0 +1,43 @@
+\documentclass{book}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlepic}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{alltt}
+\usepackage{fancyhdr}
+\usepackage{minted}
+\usepackage{exercise}
+\usepackage{mathtools} 
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\graphicspath{{./pics/}}
+
+\renewcommand{\headheight}{0.6in}
+\setlength{\headwidth}{\textwidth}
+
+\fancyhead[L]{ % left
+   \includegraphics[height=0.53in]{mri2}
+}
+\pagestyle{fancy}
+
+\begin{document}
+
+\title{Workshop: Macro Programming with ImageJ}
+
+\author{Volker Baecker \-- Montpellier RIO Imaging}
+\date{24.06.2014}
+\titlepic{
+    \includegraphics[width=\textwidth]{macro}
+    }
+\maketitle
+\tableofcontents
+\listoffigures
+\input{introduction.tex}
+\input{getting_started.tex}
+\input{syntax_and_semantics.tex}
+\bibliographystyle{plain}
+\bibliography{workshop}
+\end{document}

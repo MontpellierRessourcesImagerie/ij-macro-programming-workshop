@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{n} \PYG{o}{=} \PYG{l+m+mi}{5}\PYG{o}{;}
+\PYG{n}{factorial} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{o}{;}
+\PYG{k}{for} \PYG{o}{(}\PYG{n}{i}\PYG{o}{=}\PYG{n}{n}\PYG{o}{;} \PYG{n}{i}\PYG{o}{\PYGZgt{}}\PYG{l+m+mi}{1}\PYG{o}{;} \PYG{n}{i}\PYG{o}{\PYGZhy{}\PYGZhy{})} \PYG{o}{\PYGZob{}}
+	\PYG{n}{factorial} \PYG{o}{*=} \PYG{n}{i}\PYG{o}{;}
+\PYG{o}{\PYGZcb{}}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{factorial}\PYG{o}{);}
+\end{Verbatim}

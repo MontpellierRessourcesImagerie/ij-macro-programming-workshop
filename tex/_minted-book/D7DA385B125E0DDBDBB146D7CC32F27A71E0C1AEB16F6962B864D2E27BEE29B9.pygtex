@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{newImage}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}pattern\PYGZdq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}8\PYGZhy{}bit\PYGZdq{}}\PYG{o}{,} \PYG{l+m+mi}{255}\PYG{o}{,} \PYG{l+m+mi}{255}\PYG{o}{,} \PYG{l+m+mi}{1}\PYG{o}{);}
+\PYG{n}{width} \PYG{o}{=} \PYG{n}{getWidth}\PYG{o}{();}
+\PYG{n}{height} \PYG{o}{=} \PYG{n}{getHeight}\PYG{o}{();}
+\PYG{k}{for}\PYG{o}{(}\PYG{n}{x}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{o}{;} \PYG{n}{x}\PYG{o}{\PYGZlt{}}\PYG{n}{width}\PYG{o}{;} \PYG{n}{x}\PYG{o}{++)} \PYG{o}{\PYGZob{}}
+    \PYG{k}{for}\PYG{o}{(}\PYG{n}{y}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{o}{;} \PYG{n}{y}\PYG{o}{\PYGZlt{}}\PYG{n}{height}\PYG{o}{;} \PYG{n}{y}\PYG{o}{++)} \PYG{o}{\PYGZob{}}
+    	\PYG{n}{setPixel}\PYG{o}{(}\PYG{n}{x}\PYG{o}{,} \PYG{n}{y}\PYG{o}{,} \PYG{n}{x}\PYG{o}{*}\PYG{n}{y} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{255}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

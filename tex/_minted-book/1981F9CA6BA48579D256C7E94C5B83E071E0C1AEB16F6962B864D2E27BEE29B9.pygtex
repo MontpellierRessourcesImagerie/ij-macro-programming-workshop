@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{o}{(}\PYG{n}{condition}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+	\PYG{n}{list} \PYG{n}{of} \PYG{n}{statements} \PYG{l+m+mi}{1}
+\PYG{o}{\PYGZcb{}} \PYG{k}{else} \PYG{o}{\PYGZob{}}
+	\PYG{n}{list} \PYG{n}{of} \PYG{n}{statements} \PYG{l+m+mi}{2}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

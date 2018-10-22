@@ -1,0 +1,70 @@
+\begin{thebibliography}{10}
+
+\bibitem{website:double_floating_point_image}
+Wikimedia.
+\newblock File:IEEE 754 Double Floating Point Format.svg.
+
+\bibitem{_ascii_code_1963}
+{ASA} standard x3.4-1963.
+\newblock Technical report, June 1963.
+
+\bibitem{_754-2008_2008}
+{IEEE} 754-2008.
+\newblock Technical report, August 2008.
+
+\bibitem{berthold_knime_2009}
+Michael~R. Berthold, Nicolas Cebron, Fabian Dill, Thomas~R. Gabriel, Tobias
+  Kötter, Thorsten Meinl, Peter Ohl, Kilian Thiel, and Bernd Wiswedel.
+\newblock {KNIME} - the konstanz information miner: version 2.0 and beyond.
+\newblock {\em {ACM} {SIGKDD} Explorations Newsletter}, 11(1):26, November
+  2009.
+
+\bibitem{lamprecht_cellprofiler:_2007}
+Michael~R. Lamprecht, David~M. Sabatini, and Anne~E. Carpenter.
+\newblock {CellProfiler}: free, versatile software for automated biological
+  image analysis.
+\newblock {\em {BioTechniques}}, 42(1):71--75, January 2007.
+
+\bibitem{mutterer_macro_2010}
+J{\'e}r{\^o}me Mutterer.
+\newblock Programming with the {ImageJ} macro language.
+\newblock In {\em {ImageJ} User and Developer Conference 2010}, Luxembourg,
+  2010. Centre de Recherche Public Henri Tudor.
+
+\bibitem{papert_mindstorms:_1993}
+Seymour Papert.
+\newblock {\em Mindstorms: children, computers, and powerful ideas}.
+\newblock Basic Books, New York, 2nd ed edition, 1993.
+
+\bibitem{schindelin_fiji:_2012}
+Johannes Schindelin, Ignacio Arganda-Carreras, Erwin Frise, Verena Kaynig, Mark
+  Longair, Tobias Pietzsch, Stephan Preibisch, Curtis Rueden, Stephan Saalfeld,
+  Benjamin Schmid, Jean-Yves Tinevez, Daniel~James White, Volker Hartenstein,
+  Kevin Eliceiri, Pavel Tomancak, and Albert Cardona.
+\newblock Fiji: an open-source platform for biological-image analysis.
+\newblock {\em Nature Methods}, 9(7):676--682, June 2012.
+
+\bibitem{schneider_nih_2012}
+Caroline~A Schneider, Wayne~S Rasband, and Kevin~W Eliceiri.
+\newblock {NIH} image to {ImageJ:} 25 years of image analysis.
+\newblock {\em Nature methods}, 9(7):671--675, July 2012.
+\newblock {PMID:} 22930834.
+
+\bibitem{slonneger_formal_1995}
+Kenneth Slonneger.
+\newblock {\em Formal syntax and semantics of programming languages: a
+  laboratory based approach}.
+\newblock Addison-Wesley Pub. Co, Reading, Mass, 1995.
+
+\bibitem{wiki:double_precision_floating_point}
+Wikipedia.
+\newblock Double-precision floating-point format --- wikipedia{,} the free
+  encyclopedia, 2014.
+\newblock [Online; accessed 28-July-2014].
+
+\bibitem{wiki:ieee_745_1985}
+Wikipedia.
+\newblock Ieee 754-1985 --- wikipedia{,} the free encyclopedia, 2014.
+\newblock [Online; accessed 28-July-2014].
+
+\end{thebibliography}

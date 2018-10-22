@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{r} \PYG{o}{=} \PYG{l+m+mf}{6.4}\PYG{o}{;}
+\PYG{n}{message} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}radius: \PYGZdq{}} \PYG{o}{+} \PYG{n}{r} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}cm\PYGZdq{}}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{message}\PYG{o}{);}
+\PYG{n}{message} \PYG{o}{=} \PYG{n}{toString}\PYG{o}{(}\PYG{n}{r}\PYG{o}{)} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}cm is the radius\PYGZdq{}}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{message}\PYG{o}{);}
+\PYG{n}{message} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}\PYGZdq{}} \PYG{o}{+} \PYG{n}{r} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}cm is the radius\PYGZdq{}}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{message}\PYG{o}{);}
+\end{Verbatim}

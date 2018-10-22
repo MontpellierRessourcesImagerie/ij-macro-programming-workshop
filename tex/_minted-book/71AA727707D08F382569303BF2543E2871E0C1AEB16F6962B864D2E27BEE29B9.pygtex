@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{radius} \PYG{o}{=} \PYG{l+m+mf}{11.25}\PYG{o}{;}
+\PYG{n}{circumference} \PYG{o}{=} \PYG{l+m+mi}{2} \PYG{o}{*} \PYG{n}{PI} \PYG{o}{*} \PYG{n}{radius}\PYG{o}{;}
+\PYG{n}{area} \PYG{o}{=} \PYG{n}{PI} \PYG{o}{*} \PYG{n}{radius} \PYG{o}{*} \PYG{n}{radius}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}radius:\PYGZdq{}}\PYG{o}{,} \PYG{n}{radius}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}circumference:\PYGZdq{}}\PYG{o}{,} \PYG{n}{circumference}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}area:\PYGZdq{}}\PYG{o}{,} \PYG{n}{area}\PYG{o}{);}
+\end{Verbatim}

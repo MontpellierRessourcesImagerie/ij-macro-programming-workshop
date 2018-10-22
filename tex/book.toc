@@ -1,0 +1,36 @@
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {chapter}{\numberline {2}Getting Started}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Macros}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Installing Fiji}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Hello World}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Hello World using the log-window}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Hello World using a dialog}{12}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Hello World on an image}{12}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Excercises}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}Answers}{16}{section.2.5}
+\contentsline {chapter}{\numberline {3}The ImageJ Macro Language}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Comments}{20}{section.3.1}
+\contentsline {section}{\numberline {3.2}Literals}{21}{section.3.2}
+\contentsline {section}{\numberline {3.3}Expressions, Operators and Datatypes}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Numbers}{24}{subsection.3.3.1}
+\contentsline {subsubsection}{Numerical Operators}{24}{section*.8}
+\contentsline {subsubsection}{Special Values}{27}{section*.9}
+\contentsline {subsubsection}{Internal Representation}{28}{section*.10}
+\contentsline {subsubsection}{Calculations and Precedence}{30}{section*.12}
+\contentsline {subsection}{\numberline {3.3.2}Strings}{31}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Booleans}{32}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Numbers as Bit-Strings}{34}{subsection.3.3.4}
+\contentsline {subsubsection}{Two's complement representation of integer values}{35}{section*.13}
+\contentsline {subsubsection}{Bitwise operations}{36}{section*.14}
+\contentsline {subsection}{\numberline {3.3.5}Comparison Operations}{37}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Variables and Assignments}{38}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Automatic type conversion}{40}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Arrays}{41}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Conditional code execution}{42}{section.3.5}
+\contentsline {section}{\numberline {3.6}Loops}{45}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}The for--loop}{45}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}The while--loop}{51}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}The do--while--loop}{53}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.7}User--defined functions}{54}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Variable scope and global variables}{56}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Parameter passing by value and by reference}{60}{subsection.3.7.2}

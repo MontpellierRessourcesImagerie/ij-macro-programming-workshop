@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+s}{\PYGZdq{}not\PYGZdq{}}\PYG{o}{;}
+\PYG{o}{(!}\PYG{k+kc}{false}\PYG{o}{);} 		\PYG{l+m+mi}{1}
+\PYG{o}{(!}\PYG{k+kc}{true}\PYG{o}{);}		  \PYG{l+m+mi}{0}
+\PYG{l+s}{\PYGZdq{}and\PYGZdq{}}\PYG{o}{;}
+\PYG{o}{(}\PYG{k+kc}{false} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{k+kc}{false}\PYG{o}{);}	 \PYG{l+m+mi}{0}
+\PYG{o}{(}\PYG{k+kc}{false} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{k+kc}{true}\PYG{o}{);}	  \PYG{l+m+mi}{0}
+\PYG{o}{(}\PYG{k+kc}{true} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{k+kc}{false}\PYG{o}{);}  	\PYG{l+m+mi}{0}
+\PYG{o}{(}\PYG{k+kc}{true} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{k+kc}{true}\PYG{o}{);}   	\PYG{l+m+mi}{1}
+\PYG{l+s}{\PYGZdq{}or\PYGZdq{}}
+\PYG{o}{(}\PYG{k+kc}{false} \PYG{o}{||} \PYG{k+kc}{false}\PYG{o}{);}	 \PYG{l+m+mi}{0}
+\PYG{o}{(}\PYG{k+kc}{false} \PYG{o}{||} \PYG{k+kc}{true}\PYG{o}{);}	  \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{k+kc}{true} \PYG{o}{||} \PYG{k+kc}{false}\PYG{o}{);}	  \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{k+kc}{true} \PYG{o}{||} \PYG{k+kc}{true}\PYG{o}{);}	   \PYG{l+m+mi}{1}
+\end{Verbatim}

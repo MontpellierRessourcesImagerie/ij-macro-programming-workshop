@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+m+mi}{5} \PYG{o}{+} \PYG{l+m+mi}{3}\PYG{o}{;}
+\PYG{l+m+mf}{3.56} \PYG{o}{+} \PYG{l+m+mf}{2.45}\PYG{o}{;}
+\PYG{o}{(\PYGZhy{}}\PYG{l+m+mi}{3} \PYG{o}{+} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{5}\PYG{o}{);}
+\PYG{o}{(\PYGZhy{}}\PYG{l+m+mi}{3} \PYG{o}{+} \PYG{l+m+mi}{5}\PYG{o}{);}
+\PYG{l+m+mf}{1e308} \PYG{o}{+} \PYG{l+m+mf}{1e307}\PYG{o}{;}
+\PYG{l+m+mf}{1e308} \PYG{o}{+} \PYG{l+m+mf}{1e308}\PYG{o}{;}
+\end{Verbatim}

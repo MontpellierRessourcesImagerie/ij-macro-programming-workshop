@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{makeCircleAroundCenter}\PYG{o}{(}\PYG{l+m+mi}{80}\PYG{o}{);}
+
+\PYG{n}{function} \PYG{n+nf}{makeCircleAroundCenter}\PYG{o}{(}\PYG{n}{radius}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+	\PYG{n}{makeOval}\PYG{o}{((}\PYG{n}{getWidth}\PYG{o}{()} \PYG{o}{\PYGZhy{}} \PYG{n}{radius}\PYG{o}{)} \PYG{o}{/} \PYG{l+m+mi}{2}\PYG{o}{,}
+		     \PYG{o}{(}\PYG{n}{getHeight}\PYG{o}{()} \PYG{o}{\PYGZhy{}} \PYG{n}{radius}\PYG{o}{)} \PYG{o}{/} \PYG{l+m+mi}{2}\PYG{o}{,} \PYG{n}{radius}\PYG{o}{,} \PYG{n}{radius}\PYG{o}{);}
+	\PYG{n}{Roi}\PYG{o}{.}\PYG{n+na}{setStrokeWidth}\PYG{o}{(}\PYG{l+m+mi}{7}\PYG{o}{);}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

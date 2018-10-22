@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{newImage}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}animation\PYGZdq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}8\PYGZhy{}bit\PYGZdq{}}\PYG{o}{,} \PYG{l+m+mi}{800}\PYG{o}{,} \PYG{l+m+mi}{800}\PYG{o}{,} \PYG{l+m+mi}{1}\PYG{o}{);}
+\PYG{n}{makeOval}\PYG{o}{(}\PYG{l+m+mi}{0}\PYG{o}{,}\PYG{l+m+mi}{0}\PYG{o}{,}\PYG{l+m+mi}{20}\PYG{o}{,}\PYG{l+m+mi}{20}\PYG{o}{);}
+\PYG{n}{Roi}\PYG{o}{.}\PYG{n+na}{setFillColor}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{o}{);}
+\PYG{k}{for}\PYG{o}{(}\PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{o}{;} \PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{800}\PYG{o}{;} \PYG{n}{i}\PYG{o}{++)} \PYG{o}{\PYGZob{}}
+	\PYG{n}{Roi}\PYG{o}{.}\PYG{n+na}{move}\PYG{o}{(}\PYG{n}{i}\PYG{o}{,} \PYG{n}{i}\PYG{o}{);}
+	\PYG{n}{wait}\PYG{o}{(}\PYG{l+m+mi}{20}\PYG{o}{);}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

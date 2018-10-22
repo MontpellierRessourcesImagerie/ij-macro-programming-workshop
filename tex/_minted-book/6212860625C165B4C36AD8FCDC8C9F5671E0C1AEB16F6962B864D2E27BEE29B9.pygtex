@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{a} \PYG{o}{=} \PYG{n}{newArray}\PYG{o}{(}\PYG{l+m+mi}{1}\PYG{o}{,}\PYG{l+m+mi}{2}\PYG{o}{,}\PYG{l+m+mi}{3}\PYG{o}{);}
+\PYG{n}{b} \PYG{o}{=} \PYG{n}{squareList}\PYG{o}{(}\PYG{n}{a}\PYG{o}{);}
+\PYG{n}{Array}\PYG{o}{.}\PYG{n+na}{print}\PYG{o}{(}\PYG{n}{a}\PYG{o}{);}
+\PYG{n}{Array}\PYG{o}{.}\PYG{n+na}{print}\PYG{o}{(}\PYG{n}{b}\PYG{o}{);}
+
+\PYG{n}{function} \PYG{n+nf}{squareList}\PYG{o}{(}\PYG{n}{a}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+	\PYG{k}{for} \PYG{o}{(}\PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{o}{;} \PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{n}{a}\PYG{o}{.}\PYG{n+na}{length}\PYG{o}{;} \PYG{n}{i}\PYG{o}{++)}
+		\PYG{n}{a}\PYG{o}{[}\PYG{n}{i}\PYG{o}{]} \PYG{o}{=} \PYG{n}{a}\PYG{o}{[}\PYG{n}{i}\PYG{o}{]} \PYG{o}{*} \PYG{n}{a}\PYG{o}{[}\PYG{n}{i}\PYG{o}{];}
+	\PYG{k}{return} \PYG{n}{a}\PYG{o}{;}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

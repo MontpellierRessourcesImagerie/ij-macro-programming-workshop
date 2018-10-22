@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{//setTool(\PYGZdq{}text\PYGZdq{});}
+\PYG{n}{setFont}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Serif\PYGZdq{}}\PYG{o}{,} \PYG{l+m+mi}{40}\PYG{o}{,} \PYG{l+s}{\PYGZdq{} antialiased\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{setColor}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}\PYGZsh{}ffc800\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{Overlay}\PYG{o}{.}\PYG{n+na}{drawString}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Hello World!\PYGZdq{}}\PYG{o}{,} \PYG{l+m+mi}{126}\PYG{o}{,} \PYG{l+m+mi}{128}\PYG{o}{,} \PYG{l+m+mf}{0.0}\PYG{o}{);}
+\PYG{n}{Overlay}\PYG{o}{.}\PYG{n+na}{show}\PYG{o}{();}
+\end{Verbatim}

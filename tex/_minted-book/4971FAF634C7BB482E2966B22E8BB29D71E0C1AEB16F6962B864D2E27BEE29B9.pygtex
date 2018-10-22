@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/*}
+\PYG{c+cm}{ *  This macro implements the famous \PYGZdq{}Hello World\PYGZdq{} example.}
+\PYG{c+cm}{ *  It draws the message onto an overlay of the active image.}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ *  written by Volker Baecker, 2014}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ *  contact: volker.baecker@mri.cnrs.fr}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ *  This macro is in the public domain,}
+\PYG{c+cm}{ *  feel free to use and modify it.}
+\PYG{c+cm}{ */}
+
+\PYG{n}{setFont}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Serif\PYGZdq{}}\PYG{o}{,} \PYG{l+m+mi}{40}\PYG{o}{,} \PYG{l+s}{\PYGZdq{} antialiased\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{setColor}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}\PYGZsh{}ffc800\PYGZdq{}}\PYG{o}{);} \PYG{c+c1}{// The hexstring encodes the color orange}
+		     \PYG{c+c1}{// with the RGB components R=255, G=200, B=0}
+\PYG{n}{Overlay}\PYG{o}{.}\PYG{n+na}{drawString}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Hello World!\PYGZdq{}}\PYG{o}{,} \PYG{l+m+mi}{126}\PYG{o}{,} \PYG{l+m+mi}{128}\PYG{o}{,} \PYG{l+m+mf}{0.0}\PYG{o}{);}
+\PYG{n}{Overlay}\PYG{o}{.}\PYG{n+na}{show}\PYG{o}{();}
+\end{Verbatim}

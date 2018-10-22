@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{run}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Smooth\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{run}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Find Edges\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{run}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Invert\PYGZdq{}}\PYG{o}{);}
+\end{Verbatim}

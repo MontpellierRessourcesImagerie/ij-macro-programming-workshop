@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{labels} \PYG{o}{=} \PYG{n}{newArray}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}one\PYGZdq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}TOO\PYGZdq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}three\PYGZdq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}four\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{correctLabels} \PYG{o}{=} \PYG{n}{labels}\PYG{o}{;}
+\PYG{n}{correctLabels}\PYG{o}{[}\PYG{l+m+mi}{1}\PYG{o}{]} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}two\PYGZdq{}}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{correctLabels}\PYG{o}{[}\PYG{l+m+mi}{1}\PYG{o}{]);}	\PYG{n}{two}
+\PYG{n+nf}{print}\PYG{o}{(}\PYG{n}{labels}\PYG{o}{[}\PYG{l+m+mi}{1}\PYG{o}{]);}	       \PYG{n}{two}
+\end{Verbatim}

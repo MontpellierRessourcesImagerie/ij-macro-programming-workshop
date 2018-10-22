@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{balanceA} \PYG{o}{=} \PYG{l+m+mi}{1000}\PYG{o}{;}
+\PYG{n}{balanceB} \PYG{o}{=} \PYG{n}{balanceA}\PYG{o}{;}
+\PYG{n}{balanceB} \PYG{o}{=} \PYG{n}{balanceB} \PYG{o}{+} \PYG{l+m+mi}{500}\PYG{o}{;}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}balance A: \PYGZdq{}}\PYG{o}{,} \PYG{n}{balanceA}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}balance B: \PYGZdq{}}\PYG{o}{,} \PYG{n}{balanceB}\PYG{o}{);}
+\end{Verbatim}

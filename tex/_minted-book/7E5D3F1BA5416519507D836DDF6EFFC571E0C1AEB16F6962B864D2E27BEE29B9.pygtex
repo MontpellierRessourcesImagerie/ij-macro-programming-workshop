@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{a} \PYG{o}{=} \PYG{l+m+mi}{5}\PYG{o}{;}
+\PYG{n}{b} \PYG{o}{=} \PYG{n}{squareValue}\PYG{o}{(}\PYG{n}{a}\PYG{o}{);}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{a}\PYG{o}{,} \PYG{n}{b}\PYG{o}{);}
+\PYG{n}{function} \PYG{n+nf}{squareValue}\PYG{o}{(}\PYG{n}{a}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+	\PYG{n}{a} \PYG{o}{=} \PYG{n}{a} \PYG{o}{*} \PYG{n}{a}\PYG{o}{;}
+	\PYG{k}{return} \PYG{n}{a}\PYG{o}{;}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

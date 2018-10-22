@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+s+s2}{\PYGZdq{}Hello\PYGZdq{}} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{} \PYGZdq{}} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}World\PYGZdq{}} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}!\PYGZdq{}}\PYG{p}{;}
+\PYG{l+s+s2}{\PYGZdq{}Hello }\PYG{l+s+se}{\PYGZbs{}\PYGZdq{}}\PYG{l+s+s2}{World}\PYG{l+s+se}{\PYGZbs{}\PYGZdq{}}\PYG{l+s+s2}{!\PYGZdq{}}\PYG{p}{;}
+\PYG{l+s+s1}{\PYGZsq{}Hello \PYGZdq{}World\PYGZdq{}!\PYGZsq{}}\PYG{p}{;}
+\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s1}{n inserts a newline\PYGZsq{}}\PYG{p}{;}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}110\PYGZbs{}145\PYGZbs{}154\PYGZbs{}154\PYGZbs{}157\PYGZbs{}041}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{;}
+\end{Verbatim}

@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{primeNumbers} \PYG{o}{=} \PYG{n}{newArray}\PYG{o}{(}\PYG{l+m+mi}{3}\PYG{o}{,} \PYG{l+m+mi}{5}\PYG{o}{,} \PYG{l+m+mi}{7}\PYG{o}{,} \PYG{l+m+mi}{11}\PYG{o}{,} \PYG{l+m+mi}{13}\PYG{o}{,} \PYG{l+m+mi}{17}\PYG{o}{,} \PYG{l+m+mi}{19}\PYG{o}{,} \PYG{l+m+mi}{23}\PYG{o}{);}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{primeNumbers}\PYG{o}{[}\PYG{l+m+mi}{0}\PYG{o}{]);}					\PYG{l+m+mi}{3}
+\PYG{n}{print}\PYG{o}{(}\PYG{n}{primeNumbers}\PYG{o}{[}\PYG{n}{primeNumbers}\PYG{o}{.}\PYG{n+na}{length}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{o}{]);}		   \PYG{l+m+mi}{23}
+
+\PYG{n}{options} \PYG{o}{=} \PYG{n}{newArray}\PYG{o}{(}\PYG{l+m+mi}{34}\PYG{o}{,} \PYG{k+kc}{true}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}Huang\PYGZdq{}}\PYG{o}{);}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}threshold value:\PYGZdq{}}\PYG{o}{,} \PYG{n}{options}\PYG{o}{[}\PYG{l+m+mi}{0}\PYG{o}{]);}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}dark background:\PYGZdq{}}\PYG{o}{,} \PYG{n}{options}\PYG{o}{[}\PYG{l+m+mi}{1}\PYG{o}{]);}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}threshold method:\PYGZdq{}}\PYG{o}{,} \PYG{n}{options}\PYG{o}{[}\PYG{l+m+mi}{2}\PYG{o}{]);}
+\end{Verbatim}

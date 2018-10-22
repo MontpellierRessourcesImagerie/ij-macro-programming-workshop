@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{(}\PYG{k+kc}{false} \PYG{o}{\PYGZlt{}} \PYG{k+kc}{true}\PYG{o}{);}		 \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{k+kc}{true} \PYG{o}{\PYGZlt{}=} \PYG{k+kc}{true}\PYG{o}{);}		 \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{l+m+mi}{7}\PYG{o}{\PYGZgt{}}\PYG{l+m+mi}{5}\PYG{o}{);}			  \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{l+m+mf}{0.123} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{0.12300000001}\PYG{o}{);}	\PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{n}{NaN} \PYG{o}{!=} \PYG{n}{NaN}\PYG{o}{);}		   \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{l+s}{\PYGZdq{}a\PYGZdq{}}\PYG{o}{\PYGZlt{}}\PYG{l+s}{\PYGZdq{}b\PYGZdq{}}\PYG{o}{);}		      \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{l+s}{\PYGZdq{}fox\PYGZdq{}}\PYG{o}{\PYGZlt{}}\PYG{l+s}{\PYGZdq{}horse\PYGZdq{}}\PYG{o}{);}		\PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{l+s}{\PYGZdq{}yes\PYGZdq{}}\PYG{o}{==}\PYG{l+s}{\PYGZdq{}yes\PYGZdq{}}\PYG{o}{)}		  \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{n}{parseFloat}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Infinity\PYGZdq{}}\PYG{o}{)\PYGZgt{}}\PYG{l+m+mi}{9999999999}\PYG{o}{);}		 \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{n}{parseFloat}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}\PYGZhy{}Infinity\PYGZdq{}}\PYG{o}{)\PYGZlt{}}\PYG{l+m+mi}{9999999999}\PYG{o}{);}		\PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{n}{parseFloat}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Infinity\PYGZdq{}}\PYG{o}{)\PYGZgt{}(}\PYG{n}{parseFloat}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}\PYGZhy{}Infinity\PYGZdq{}}\PYG{o}{)));}  \PYG{l+m+mi}{1}
+\PYG{o}{(}\PYG{n}{parseFloat}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Infinity\PYGZdq{}}\PYG{o}{)==}\PYG{n}{parseFloat}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Infinity\PYGZdq{}}\PYG{o}{));}    \PYG{l+m+mi}{1}
+\end{Verbatim}

@@ -1,0 +1,594 @@
+
+ \begin{theindex} 
+ \makeatletter\scan@allowedfalse
+{\bfseries\hfil Symbols\hfil}\nopagebreak
+
+  \item \verb*+\"+\pfill \hyperpage{11, 12}
+  \item \verb*+\'+\pfill \hyperpage{11, 12}
+  \item \verb*+\@@@AnswerCmd+\pfill \hyperpage{24}
+  \item \verb*+\@@@AnswerEnv+\pfill \hyperpage{24}
+  \item \verb*+\@@@ExeCmd+\pfill \hyperpage{17}
+  \item \verb*+\@@@ExeEnv+\pfill \hyperpage{17}
+  \item \verb*+\@@@ExePart+\pfill \hyperpage{23}
+  \item \verb*+\@@@Question+\pfill \hyperpage{19}
+  \item \verb*+\@@@subQuestion+\pfill \hyperpage{20}
+  \item \verb*+\@@@subsubQuestion+\pfill \hyperpage{21}
+  \item \verb*+\@@AnswerCmd+\pfill \hyperpage{24}
+  \item \verb*+\@@AnswerEnv+\pfill \hyperpage{24}
+  \item \verb*+\@@ExeCmd+\pfill \hyperpage{17}
+  \item \verb*+\@@ExeEnv+\pfill \hyperpage{17}
+  \item \verb*+\@@ExePart+\pfill \hyperpage{23}
+  \item \verb*+\@@Question+\pfill \hyperpage{19}
+  \item \verb*+\@@ShipThisAnswerfalse+\pfill \hyperpage{27}
+  \item \verb*+\@@ShipThisAnswertrue+\pfill \hyperpage{25}, 
+		\hyperpage{27}
+  \item \verb*+\@@ShipThisExercisefalse+\pfill \hyperpage{26, 27}
+  \item \verb*+\@@ShipThisExercisetrue+\pfill \hyperpage{25--27}
+  \item \verb*+\@@subQuestion+\pfill \hyperpage{20}
+  \item \verb*+\@@subsubQuestion+\pfill \hyperpage{21}
+  \item \verb*+\@AnswerCounter+\pfill \hyperpage{13}
+  \item \verb*+\@AnswerDelayfalse+\pfill \hyperpage{10}
+  \item \verb*+\@AnswerDelaytrue+\pfill \hyperpage{10}
+  \item \verb*+\@AnswerHeaderRef+\pfill \hyperpage{24, 25}
+  \item \verb*+\@AnswerNBfalse+\pfill \hyperpage{23, 24}
+  \item \verb*+\@AnswerNBtrue+\pfill \hyperpage{24}
+  \item \verb*+\@AnswerOutputfalse+\pfill \hyperpage{10}
+  \item \verb*+\@AnswerOutputtrue+\pfill \hyperpage{10}
+  \item \verb*+\@AnswerReffalse+\pfill \hyperpage{23, 24}
+  \item \verb*+\@AnswerReftrue+\pfill \hyperpage{24}
+  \item \verb*+\@Answerbox+\pfill \hyperpage{23}
+  \item \verb*+\@Answerfalse+\pfill \hyperpage{15}, \hyperpage{17, 18}
+  \item \verb*+\@Answertrue+\pfill \hyperpage{24, 25}
+  \item \verb*+\@AswLastExefalse+\pfill \hyperpage{10}
+  \item \verb*+\@AswLastExetrue+\pfill \hyperpage{10}
+  \item \verb*+\@BeginExeBox+\pfill \hyperpage{16--18}, 
+		\hyperpage{24, 25}
+  \item \verb*+\@DelayAnswerBox+\pfill \hyperpage{16, 17}
+  \item \verb*+\@DelayExerciseBox+\pfill \hyperpage{17}
+  \item \verb*+\@EndExeBox+\pfill \hyperpage{16--18}, 
+		\hyperpage{24, 25}
+  \item \verb*+\@ExeCmd+\pfill \hyperpage{17}
+  \item \verb*+\@ExeDifficultyfalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeDifficultytrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExeExamfalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeExamtrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExeLabelfalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeLabeltrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExeNBfalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeNBtrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExeOriginfalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeOrigintrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExePart+\pfill \hyperpage{23}
+  \item \verb*+\@ExePartDifficultyfalse+\pfill \hyperpage{22}
+  \item \verb*+\@ExePartDifficultytrue+\pfill \hyperpage{23}
+  \item \verb*+\@ExePartHeader+\pfill \hyperpage{18}, \hyperpage{23}
+  \item \verb*+\@ExePartName+\pfill \hyperpage{22, 23}
+  \item \verb*+\@ExePartReNamefalse+\pfill \hyperpage{22}
+  \item \verb*+\@ExePartReNametrue+\pfill \hyperpage{23}
+  \item \verb*+\@ExePartStaredfalse+\pfill \hyperpage{22, 23}
+  \item \verb*+\@ExePartStaredtrue+\pfill \hyperpage{23}
+  \item \verb*+\@ExePartTitlefalse+\pfill \hyperpage{22}
+  \item \verb*+\@ExePartTitletrue+\pfill \hyperpage{23}
+  \item \verb*+\@ExeReNamefalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeReNametrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExeSelectClassfalse+\pfill \hyperpage{25, 26}
+  \item \verb*+\@ExeSelectClasstrue+\pfill \hyperpage{25}
+  \item \verb*+\@ExeSelectDifficultyfalse+\pfill \hyperpage{25, 26}
+  \item \verb*+\@ExeSelectDifficultytrue+\pfill \hyperpage{25}
+  \item \verb*+\@ExeSelectExamfalse+\pfill \hyperpage{25}
+  \item \verb*+\@ExeSelectExamtrue+\pfill \hyperpage{25}
+  \item \verb*+\@ExeSelectLabelfalse+\pfill \hyperpage{25, 26}
+  \item \verb*+\@ExeSelectLabeltrue+\pfill \hyperpage{25}
+  \item \verb*+\@ExeSelectOriginfalse+\pfill \hyperpage{25, 26}
+  \item \verb*+\@ExeSelectOrigintrue+\pfill \hyperpage{25}
+  \item \verb*+\@ExeSelectTypefalse+\pfill \hyperpage{25, 26}
+  \item \verb*+\@ExeSelectTypetrue+\pfill \hyperpage{25}
+  \item \verb*+\@ExeSelectYearfalse+\pfill \hyperpage{25}
+  \item \verb*+\@ExeSelectYeartrue+\pfill \hyperpage{25}
+  \item \verb*+\@ExeStaredfalse+\pfill \hyperpage{16--18}
+  \item \verb*+\@ExeStaredtrue+\pfill \hyperpage{17, 18}
+  \item \verb*+\@ExeTitlefalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeTitletrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExeTypefalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeTypetrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExeYearfalse+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExeYeartrue+\pfill \hyperpage{15}
+  \item \verb*+\@ExerciseCounter+\pfill \hyperpage{13}, 
+		\hyperpage{15, 16}
+  \item \verb*+\@ExerciseDelayfalse+\pfill \hyperpage{10}
+  \item \verb*+\@ExerciseDelaytrue+\pfill \hyperpage{10}
+  \item \verb*+\@ExerciseName+\pfill \hyperpage{15, 16}
+  \item \verb*+\@ExerciseOutputfalse+\pfill \hyperpage{10}
+  \item \verb*+\@ExerciseOutputtrue+\pfill \hyperpage{10}
+  \item \verb*+\@ExerciseSelect+\pfill \hyperpage{26}
+  \item \verb*+\@ExerciseSelectedfalse+\pfill \hyperpage{26}
+  \item \verb*+\@ExerciseSelectedtrue+\pfill \hyperpage{25, 26}
+  \item \verb*+\@Exercisebox+\pfill \hyperpage{15--17}
+  \item \verb*+\@InitAnswer+\pfill \hyperpage{23, 24}
+  \item \verb*+\@InitExe+\pfill \hyperpage{16, 17}
+  \item \verb*+\@InitExePart+\pfill \hyperpage{22, 23}
+  \item \verb*+\@InitQuestion+\pfill \hyperpage{18, 19}
+  \item \verb*+\@InitsubQuestion+\pfill \hyperpage{20}
+  \item \verb*+\@InitsubsubQuestion+\pfill \hyperpage{21}
+  \item \verb*+\@QuestionDifficultyfalse+\pfill \hyperpage{18, 19}
+  \item \verb*+\@QuestionDifficultytrue+\pfill \hyperpage{18}
+  \item \verb*+\@QuestionHeader+\pfill \hyperpage{19}
+  \item \verb*+\@QuestionLevel+\pfill \hyperpage{14, 15}, 
+		\hyperpage{17}, \hyperpage{19--22}, \hyperpage{24}, 
+		\hyperpage{28}
+  \item \verb*+\@QuestionTitlefalse+\pfill \hyperpage{18, 19}
+  \item \verb*+\@QuestionTitletrue+\pfill \hyperpage{18}
+  \item \verb*+\@ShipThisAnswerfalse+\pfill \hyperpage{27}
+  \item \verb*+\@ShipThisAnswertrue+\pfill \hyperpage{25}, 
+		\hyperpage{27}
+  \item \verb*+\@ShipThisExercisefalse+\pfill \hyperpage{26, 27}
+  \item \verb*+\@ShipThisExercisetrue+\pfill \hyperpage{25--27}
+  \item \verb*+\@ShowLabelfalse+\pfill \hyperpage{10}
+  \item \verb*+\@ShowLabeltrue+\pfill \hyperpage{10}
+  \item \verb*+\@currentlabel+\pfill \hyperpage{16}
+  \item \verb*+\@decalemathindent+\pfill \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{28}
+  \item \verb*+\@difficulty+\pfill \hyperpage{26}
+  \item \verb*+\@dottedtocline+\pfill \hyperpage{29}
+  \item \verb*+\@echapqfalse+\pfill \hyperpage{15, 16}, 
+		\hyperpage{19, 20}, \hyperpage{22, 23}
+  \item \verb*+\@echapqtrue+\pfill \hyperpage{28}
+  \item \verb*+\@ehc+\pfill \hyperpage{28}
+  \item \verb*+\@exam+\pfill \hyperpage{26}
+  \item \verb*+\@firstoffive+\pfill \hyperpage{13}
+  \item \verb*+\@for+\pfill \hyperpage{26, 27}
+  \item \verb*+\@getAnswerInfo+\pfill \hyperpage{23--25}
+  \item \verb*+\@getExePartInfo+\pfill \hyperpage{23}
+  \item \verb*+\@getExerciseInfo+\pfill \hyperpage{16, 17}
+  \item \verb*+\@getQuestionInfo+\pfill \hyperpage{19}
+  \item \verb*+\@getsubQuestionInfo+\pfill \hyperpage{20}
+  \item \verb*+\@getsubsubQuestionInfo+\pfill \hyperpage{21}
+  \item \verb*+\@ifdefinable+\pfill \hyperpage{28}
+  \item \verb*+\@ifpackageloaded+\pfill \hyperpage{11}, \hyperpage{13}
+  \item \verb*+\@label+\pfill \hyperpage{27}
+  \item \verb*+\@latex@error+\pfill \hyperpage{28}
+  \item \verb*+\@mkboth+\pfill \hyperpage{29}
+  \item \verb*+\@newctr+\pfill \hyperpage{28}
+  \item \verb*+\@origin+\pfill \hyperpage{26, 27}
+  \item \verb*+\@rc@ifdefinable+\pfill \hyperpage{28}
+  \item \verb*+\@restoremathindent+\pfill \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{28}
+  \item \verb*+\@savedmathindent+\pfill \hyperpage{28}
+  \item \verb*+\@savemathindent+\pfill \hyperpage{16}, \hyperpage{23}, 
+		\hyperpage{28}
+  \item \verb*+\@selectAnswer+\pfill \hyperpage{24, 25}, \hyperpage{27}
+  \item \verb*+\@selectExercise+\pfill \hyperpage{17, 18}, 
+		\hyperpage{26}
+  \item \verb*+\@setAnswerref+\pfill \hyperpage{13}
+  \item \verb*+\@starttoc+\pfill \hyperpage{29}
+  \item \verb*+\@subQuestionDifficultyfalse+\pfill \hyperpage{20}
+  \item \verb*+\@subQuestionDifficultytrue+\pfill \hyperpage{20}
+  \item \verb*+\@subQuestionHeader+\pfill \hyperpage{20, 21}
+  \item \verb*+\@subQuestionTitlefalse+\pfill \hyperpage{20}
+  \item \verb*+\@subQuestionTitletrue+\pfill \hyperpage{20}
+  \item \verb*+\@subsubQuestionDifficultyfalse+\pfill \hyperpage{21}
+  \item \verb*+\@subsubQuestionDifficultytrue+\pfill \hyperpage{21}
+  \item \verb*+\@subsubQuestionHeader+\pfill \hyperpage{21, 22}
+  \item \verb*+\@subsubQuestionTitlefalse+\pfill \hyperpage{21}
+  \item \verb*+\@subsubQuestionTitletrue+\pfill \hyperpage{21}
+  \item \verb*+\@tempcnta+\pfill \hyperpage{13}
+  \item \verb*+\@type+\pfill \hyperpage{27}
+  \item \verb*+\@year+\pfill \hyperpage{26}
+  \item \verb*+\~+\pfill \hyperpage{12}
+
+  \indexspace
+{\bfseries\hfil  \hfil}\nopagebreak
+
+  \item \verb*+\ +\pfill \hyperpage{11--14}, \hyperpage{17, 18}, 
+		\hyperpage{23, 24}
+
+  \indexspace
+{\bfseries\hfil A\hfil}\nopagebreak
+
+  \item \verb*+\addcontentsline+\pfill \hyperpage{17, 18}
+  \item \verb*+\all@Answerbox+\pfill \hyperpage{15}, \hyperpage{17}
+  \item \verb*+\all@Exercisebox+\pfill \hyperpage{15}, \hyperpage{17}
+  \item \verb*+\Answer+\pfill \hyperpage{25}
+  \item \verb*+\AnswerCmd+\pfill \hyperpage{24, 25}
+  \item \verb*+\AnswerHeader+\pfill \hyperpage{23, 24}
+  \item \verb*+\AnswerHeaderRef+\pfill \hyperpage{24}
+  \item \verb*+\AnswerListHeader+\pfill \hyperpage{23}, \hyperpage{25}
+  \item \verb*+\AnswerListHeaderRef+\pfill \hyperpage{24}
+  \item \verb*+\AnswerListName+\pfill \hyperpage{10--12}, 
+		\hyperpage{23}
+  \item \verb*+\AnswerName+\pfill \hyperpage{10--12}, 
+		\hyperpage{23, 24}
+  \item \verb*+\AnswerNB+\pfill \hyperpage{23, 24}
+  \item \verb*+\AnswerRef+\pfill \hyperpage{23, 24}, \hyperpage{27}
+  \item \verb*+\ArticleOf+\pfill \hyperpage{11, 12}
+
+  \indexspace
+{\bfseries\hfil B\hfil}\nopagebreak
+
+  \item \verb*+\baselineskip+\pfill \hyperpage{12}
+  \item \verb*+\beginAnswerEnv+\pfill \hyperpage{24}
+  \item \verb*+\beginExerciseEnv+\pfill \hyperpage{17, 18}
+  \item \verb*+\beginExerciseListEnv+\pfill \hyperpage{18}
+  \item \verb*+\bfseries+\pfill \hyperpage{13}
+  \item \verb*+\bigskip+\pfill \hyperpage{14}
+
+  \indexspace
+{\bfseries\hfil C\hfil}\nopagebreak
+
+  \item \verb*+\c+\pfill \hyperpage{12}
+  \item \verb*+\captionsdutch+\pfill \hyperpage{11}
+  \item \verb*+\captionsfrenchb+\pfill \hyperpage{11}
+  \item \verb*+\captionsgerman+\pfill \hyperpage{11}
+  \item \verb*+\captionsitalian+\pfill \hyperpage{11}
+  \item \verb*+\captionsngerman+\pfill \hyperpage{11}
+  \item \verb*+\captionsportuges+\pfill \hyperpage{12}
+  \item \verb*+\captionsspanish+\pfill \hyperpage{11}
+  \item \verb*+\centerline+\pfill \hyperpage{14}, \hyperpage{23}
+  \item \verb*+\changes+\pfill \hyperpage{23}
+  \item \verb*+\colonnesLevel+\pfill \hyperpage{15}, \hyperpage{28}
+  \item \verb*+\csname+\pfill \hyperpage{13}
+
+  \indexspace
+{\bfseries\hfil D\hfil}\nopagebreak
+
+  \item \verb*+\DeclareOption+\pfill \hyperpage{10}
+  \item \verb*+\define@key+\pfill \hyperpage{15}, \hyperpage{18}, 
+		\hyperpage{20, 21}, \hyperpage{23--25}
+  \item \verb*+\defineAnswerCmd+\pfill \hyperpage{18}, \hyperpage{25}
+  \item \verb*+\defineAnswerEnv+\pfill \hyperpage{18}, \hyperpage{24}
+  \item \verb*+\defineExePartInEnv+\pfill \hyperpage{18}
+  \item \verb*+\defineExePartInList+\pfill \hyperpage{18}
+  \item \verb*+\defineExerciseCmd+\pfill \hyperpage{18}
+  \item \verb*+\defineExerciseEnv+\pfill \hyperpage{18}
+  \item \verb*+\deuxcolonnes+\pfill \hyperpage{28}
+  \item \verb*+\DifficultyMarker+\pfill \hyperpage{13--15}, 
+		\hyperpage{22}
+  \item \verb*+\do+\pfill \hyperpage{26, 27}
+
+  \indexspace
+{\bfseries\hfil E\hfil}\nopagebreak
+
+  \item \verb*+\encodingdefault+\pfill \hyperpage{13}
+  \item \verb*+\endAnswerEnv+\pfill \hyperpage{24}
+  \item \verb*+\endcsname+\pfill \hyperpage{13}
+  \item \verb*+\EndCurrentQuestion+\pfill \hyperpage{19}
+  \item \verb*+\EndCurrentsubQuestion+\pfill \hyperpage{20}
+  \item \verb*+\EndCurrentsubsubQuestion+\pfill \hyperpage{21}
+  \item \verb*+\endExerciseEnv+\pfill \hyperpage{17, 18}
+  \item \verb*+\endExerciseListEnv+\pfill \hyperpage{18}
+  \item \verb*+\equal+\pfill \hyperpage{26, 27}
+  \item \verb*+\es@uclc+\pfill \hyperpage{11}
+  \item example\pfill \hyperpage{3}
+  \item \verb*+\Exelabelsep+\pfill \hyperpage{12}, \hyperpage{17}, 
+		\hyperpage{25}
+  \item \verb*+\Exelabelwidth+\pfill \hyperpage{12}, \hyperpage{17}, 
+		\hyperpage{25}
+  \item \verb*+\Exeleftmargin+\pfill \hyperpage{12}, \hyperpage{17}, 
+		\hyperpage{25}
+  \item \verb*+\Exeparsep+\pfill \hyperpage{12}, \hyperpage{17}, 
+		\hyperpage{25}
+  \item \verb*+\ExePart+\pfill \hyperpage{23}
+  \item \verb*+\ExePartDifficulty+\pfill \hyperpage{22, 23}
+  \item \verb*+\ExePartHeader+\pfill \hyperpage{14}, \hyperpage{18}
+  \item \verb*+\ExePartHeaderDifficulty+\pfill \hyperpage{14}, 
+		\hyperpage{23}
+  \item \verb*+\ExePartHeaderNB+\pfill \hyperpage{14}, \hyperpage{23}
+  \item \verb*+\ExePartHeaderTitle+\pfill \hyperpage{14}, 
+		\hyperpage{23}
+  \item \verb*+\ExePartListHeader+\pfill \hyperpage{14}, \hyperpage{18}
+  \item \verb*+\ExePartName+\pfill \hyperpage{11, 12}, \hyperpage{14}, 
+		\hyperpage{23}
+  \item \verb*+\Exepartopsep+\pfill \hyperpage{12}, \hyperpage{17}, 
+		\hyperpage{25}
+  \item \verb*+\ExePartTitle+\pfill \hyperpage{14}, \hyperpage{22, 23}
+  \item \verb*+\Exercise+\pfill \hyperpage{18}
+  \item \verb*+\ExerciseBefore+\pfill \hyperpage{12}
+  \item \verb*+\ExerciseClass+\pfill \hyperpage{16}, \hyperpage{27}
+  \item \verb*+\ExerciseCmd+\pfill \hyperpage{17, 18}
+  \item \verb*+\ExerciseDifficulty+\pfill \hyperpage{15, 16}, 
+		\hyperpage{24}, \hyperpage{26}
+  \item \verb*+\ExerciseExam+\pfill \hyperpage{13}, \hyperpage{15, 16}, 
+		\hyperpage{26}
+  \item \verb*+\ExerciseHeader+\pfill \hyperpage{14}, \hyperpage{17}
+  \item \verb*+\ExerciseHeaderDifficulty+\pfill \hyperpage{13, 14}, 
+		\hyperpage{16}
+  \item \verb*+\ExerciseHeaderExam+\pfill \hyperpage{13}, 
+		\hyperpage{16}
+  \item \verb*+\ExerciseHeaderLabel+\pfill \hyperpage{14}, 
+		\hyperpage{16}
+  \item \verb*+\ExerciseHeaderNB+\pfill \hyperpage{14}, \hyperpage{16}, 
+		\hyperpage{23}
+  \item \verb*+\ExerciseHeaderOrigin+\pfill \hyperpage{13, 14}, 
+		\hyperpage{16}
+  \item \verb*+\ExerciseHeaderTitle+\pfill \hyperpage{13, 14}, 
+		\hyperpage{16}
+  \item \verb*+\ExerciseHeaderType+\pfill \hyperpage{16}
+  \item \verb*+\ExerciseHeaderYear+\pfill \hyperpage{13}, 
+		\hyperpage{16}
+  \item \verb*+\ExerciseLabel+\pfill \hyperpage{14--16}, \hyperpage{27}
+  \item \verb*+\ExerciseLevelInToc+\pfill \hyperpage{28, 29}
+  \item \verb*+\ExerciseListHeader+\pfill \hyperpage{14}, 
+		\hyperpage{17}
+  \item \verb*+\ExerciseListName+\pfill \hyperpage{10--12}, 
+		\hyperpage{14}, \hyperpage{23}
+  \item \verb*+\ExerciseLocalNB+\pfill \hyperpage{15, 16}
+  \item \verb*+\ExerciseName+\pfill \hyperpage{10--12}, \hyperpage{14}, 
+		\hyperpage{16--18}, \hyperpage{24}
+  \item \verb*+\ExerciseOrigin+\pfill \hyperpage{13}, 
+		\hyperpage{15, 16}, \hyperpage{24}, \hyperpage{26}
+  \item \verb*+\ExerciseSelect+\pfill \hyperpage{26}
+  \item \verb*+\ExerciseSelectClass+\pfill \hyperpage{25}, 
+		\hyperpage{27}
+  \item \verb*+\ExerciseSelectDifficulty+\pfill \hyperpage{25, 26}
+  \item \verb*+\ExerciseSelectExam+\pfill \hyperpage{25, 26}
+  \item \verb*+\ExerciseSelectLabel+\pfill \hyperpage{25}, 
+		\hyperpage{27}
+  \item \verb*+\ExerciseSelectOrigin+\pfill \hyperpage{25, 26}
+  \item \verb*+\ExerciseSelectType+\pfill \hyperpage{25}, 
+		\hyperpage{27}
+  \item \verb*+\ExerciseSelectYear+\pfill \hyperpage{25, 26}
+  \item \verb*+\ExerciseSkipAfter+\pfill \hyperpage{12}, \hyperpage{17}
+  \item \verb*+\ExerciseSkipBefore+\pfill \hyperpage{12}, 
+		\hyperpage{17}
+  \item \verb*+\ExerciseStopSelect+\pfill \hyperpage{25}
+  \item \verb*+\ExerciseTitle+\pfill \hyperpage{13}, \hyperpage{15--18}, 
+		\hyperpage{24}
+  \item \verb*+\ExerciseTrueLabel+\pfill \hyperpage{15, 16}
+  \item \verb*+\ExerciseType+\pfill \hyperpage{15, 16}, \hyperpage{24}, 
+		\hyperpage{27}
+  \item \verb*+\ExerciseYear+\pfill \hyperpage{13}, \hyperpage{15, 16}, 
+		\hyperpage{26}
+  \item \verb*+\Exerightmargin+\pfill \hyperpage{12}, \hyperpage{17}, 
+		\hyperpage{25}
+  \item \verb*+\Exesep+\pfill \hyperpage{12}, \hyperpage{17}, 
+		\hyperpage{25}
+  \item \verb*+\ExeText+\pfill \hyperpage{28}
+  \item \verb*+\Exetopsep+\pfill \hyperpage{12}, \hyperpage{17}, 
+		\hyperpage{25}
+  \item \verb*+\ext@exercise+\pfill \hyperpage{17, 18}, 
+		\hyperpage{28, 29}
+
+  \indexspace
+{\bfseries\hfil G\hfil}\nopagebreak
+
+  \item \verb*+\G@refundefinedtrue+\pfill \hyperpage{13}
+
+  \indexspace
+{\bfseries\hfil H\hfil}\nopagebreak
+
+  \item \verb*+\hspace+\pfill \hyperpage{17, 18}
+  \item \verb*+\hyperref+\pfill \hyperpage{13}
+
+  \indexspace
+{\bfseries\hfil I\hfil}\nopagebreak
+
+  \item \verb*+\if@@ShipThisAnswer+\pfill \hyperpage{25}, 
+		\hyperpage{27}
+  \item \verb*+\if@@ShipThisExercise+\pfill \hyperpage{25--27}
+  \item \verb*+\if@Answer+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@AnswerDelay+\pfill \hyperpage{10}, \hyperpage{17}
+  \item \verb*+\if@AnswerNB+\pfill \hyperpage{24}
+  \item \verb*+\if@AnswerOutput+\pfill \hyperpage{10}, 
+		\hyperpage{16, 17}
+  \item \verb*+\if@AnswerRef+\pfill \hyperpage{23, 24}
+  \item \verb*+\if@AswLastExe+\pfill \hyperpage{10}, \hyperpage{24}
+  \item \verb*+\if@echapq+\pfill \hyperpage{15}, \hyperpage{19, 20}, 
+		\hyperpage{22}
+  \item \verb*+\if@ExeDifficulty+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@ExeExam+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@ExeLabel+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@ExeNB+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@ExeOrigin+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@ExePartDifficulty+\pfill \hyperpage{22, 23}
+  \item \verb*+\if@ExePartReName+\pfill \hyperpage{22, 23}
+  \item \verb*+\if@ExePartStared+\pfill \hyperpage{22, 23}
+  \item \verb*+\if@ExePartTitle+\pfill \hyperpage{22, 23}
+  \item \verb*+\if@ExerciseDelay+\pfill \hyperpage{10}, \hyperpage{17}
+  \item \verb*+\if@ExerciseOutput+\pfill \hyperpage{10}, \hyperpage{17}
+  \item \verb*+\if@ExerciseSelected+\pfill \hyperpage{25}, 
+		\hyperpage{27}
+  \item \verb*+\if@ExeReName+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@ExeSelectClass+\pfill \hyperpage{25}, \hyperpage{27}
+  \item \verb*+\if@ExeSelectDifficulty+\pfill \hyperpage{25, 26}
+  \item \verb*+\if@ExeSelectExam+\pfill \hyperpage{25, 26}
+  \item \verb*+\if@ExeSelectLabel+\pfill \hyperpage{25}, \hyperpage{27}
+  \item \verb*+\if@ExeSelectOrigin+\pfill \hyperpage{25, 26}
+  \item \verb*+\if@ExeSelectType+\pfill \hyperpage{25}, \hyperpage{27}
+  \item \verb*+\if@ExeSelectYear+\pfill \hyperpage{25, 26}
+  \item \verb*+\if@ExeStared+\pfill \hyperpage{13}, \hyperpage{16}
+  \item \verb*+\if@ExeTitle+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@ExeType+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@ExeYear+\pfill \hyperpage{15, 16}
+  \item \verb*+\if@fleqn+\pfill \hyperpage{28}
+  \item \verb*+\if@QuestionDifficulty+\pfill \hyperpage{18, 19}
+  \item \verb*+\if@QuestionTitle+\pfill \hyperpage{18, 19}
+  \item \verb*+\if@ShipThisAnswer+\pfill \hyperpage{17}, \hyperpage{25}, 
+		\hyperpage{27}
+  \item \verb*+\if@ShipThisExercise+\pfill \hyperpage{16, 17}, 
+		\hyperpage{25}, \hyperpage{27}
+  \item \verb*+\if@ShowLabel+\pfill \hyperpage{10}
+  \item \verb*+\if@subQuestionDifficulty+\pfill \hyperpage{20}
+  \item \verb*+\if@subQuestionTitle+\pfill \hyperpage{20}
+  \item \verb*+\if@subsubQuestionDifficulty+\pfill \hyperpage{21}
+  \item \verb*+\if@subsubQuestionTitle+\pfill \hyperpage{21}
+  \item \verb*+\ifthenelse+\pfill \hyperpage{26, 27}
+  \item \verb*+\itemsep+\pfill \hyperpage{17}, \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{25}
+  \item \verb*+\itshape+\pfill \hyperpage{17, 18}
+
+  \indexspace
+{\bfseries\hfil K\hfil}\nopagebreak
+
+  \item keys\efill 
+ \subitem of \texttt{\bslash ExePart}\pfill \hyperpage{4}
+    \subitem of \texttt{\bslash Question}\pfill \hyperpage{4}
+    \subitem of \texttt{\bslash subQuestion}\pfill \hyperpage{4}
+    \subitem of \texttt{\bslash subsubQuestion}\pfill \hyperpage{4}
+    \subitem of \texttt{Answer}\pfill \hyperpage{3}
+    \subitem of \texttt{Exercise}\pfill \hyperpage{2}
+
+  \indexspace
+{\bfseries\hfil L\hfil}\nopagebreak
+
+  \item \verb*+\l@exercise+\pfill \hyperpage{29}
+  \item \verb*+\labelsep+\pfill \hyperpage{17}, \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{25}
+  \item \verb*+\labelwidth+\pfill \hyperpage{17}, \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{25}
+  \item \verb*+\large+\pfill \hyperpage{14}
+  \item \verb*+\leftmargin+\pfill \hyperpage{17}, \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{25}
+  \item \verb*+\listexercisename+\pfill \hyperpage{10--12}, 
+		\hyperpage{29}
+  \item \verb*+\ListOfExerciseInToc+\pfill \hyperpage{29}
+  \item \verb*+\listofexercises+\pfill \hyperpage{29}
+
+  \indexspace
+{\bfseries\hfil M\hfil}\nopagebreak
+
+  \item \verb*+\MakeUppercase+\pfill \hyperpage{29}
+  \item \verb*+\marker+\pfill \hyperpage{13--15}, \hyperpage{22}
+  \item \verb*+\mathindent+\pfill \hyperpage{28}
+  \item \verb*+\multicolsep+\pfill \hyperpage{28}
+
+  \indexspace
+{\bfseries\hfil N\hfil}\nopagebreak
+
+  \item \verb*+\newbox+\pfill \hyperpage{15}, \hyperpage{23}
+  \item \verb*+\newcounter+\pfill \hyperpage{13}
+  \item \verb*+\newlength+\pfill \hyperpage{12, 13}, \hyperpage{28}
+  \item \verb*+\newskip+\pfill \hyperpage{28}
+  \item \verb*+\nfss@text+\pfill \hyperpage{13}
+  \item \verb*+\nopagebreak+\pfill \hyperpage{18}
+  \item \verb*+\null+\pfill \hyperpage{13}
+
+  \indexspace
+{\bfseries\hfil O\hfil}\nopagebreak
+
+  \item options\efill 
+ \subitem of \texttt{\bslash ExePart}\pfill \hyperpage{4}
+    \subitem of \texttt{\bslash Question}\pfill \hyperpage{4}
+    \subitem of \texttt{\bslash subQuestion}\pfill \hyperpage{4}
+    \subitem of \texttt{\bslash subsubQuestion}\pfill \hyperpage{4}
+    \subitem of \texttt{Answer}\pfill \hyperpage{3}
+    \subitem of \texttt{Exercise}\pfill \hyperpage{2}
+    \subitem of the package\pfill \hyperpage{1}
+
+  \indexspace
+{\bfseries\hfil P\hfil}\nopagebreak
+
+  \item \verb*+\p@Exercise+\pfill \hyperpage{16}
+  \item package\efill 
+ \subitem options\pfill \hyperpage{1}
+  \item \verb*+\PackageError+\pfill \hyperpage{19}, \hyperpage{21, 22}
+  \item \verb*+\PackageWarning+\pfill \hyperpage{13}, \hyperpage{24}
+  \item \verb*+\pagebreak+\pfill \hyperpage{17}, \hyperpage{24}
+  \item \verb*+\parsep+\pfill \hyperpage{17}, \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{25}
+  \item \verb*+\parskip+\pfill \hyperpage{12}, \hyperpage{19, 20}, 
+		\hyperpage{22}
+  \item \verb*+\partopsep+\pfill \hyperpage{17}, \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{25}
+  \item \verb*+\ProcessOptions+\pfill \hyperpage{10}
+  \item \verb*+\protect+\pfill \hyperpage{13}
+  \item \verb*+\protected@edef+\pfill \hyperpage{16}
+
+  \indexspace
+{\bfseries\hfil Q\hfil}\nopagebreak
+
+  \item \verb*+\qquad+\pfill \hyperpage{13}
+  \item \verb*+\Question+\pfill \hyperpage{19}
+  \item \verb*+\QuestionBefore+\pfill \hyperpage{12}, \hyperpage{19}, 
+		\hyperpage{28}
+  \item \verb*+\QuestionDifficulty+\pfill \hyperpage{14}, 
+		\hyperpage{18, 19}
+  \item \verb*+\QuestionHeaderDifficulty+\pfill \hyperpage{14}, 
+		\hyperpage{19}
+  \item \verb*+\QuestionHeaderTitle+\pfill \hyperpage{14}, 
+		\hyperpage{19}
+  \item \verb*+\QuestionIndent+\pfill \hyperpage{12}, \hyperpage{19}
+  \item \verb*+\QuestionNB+\pfill \hyperpage{14}, \hyperpage{19}
+  \item \verb*+\QuestionTitle+\pfill \hyperpage{14}, \hyperpage{18}
+
+  \indexspace
+{\bfseries\hfil R\hfil}\nopagebreak
+
+  \item \verb*+\recordExerciseLabel+\pfill \hyperpage{16}, 
+		\hyperpage{24}
+  \item \verb*+\refAnswer+\pfill \hyperpage{13}
+  \item \verb*+\refstepExecounter+\pfill \hyperpage{16--18}, 
+		\hyperpage{25}
+  \item \verb*+\renewcounter+\pfill \hyperpage{28}
+  \item \verb*+\RequirePackage+\pfill \hyperpage{10}
+  \item \verb*+\reset@font+\pfill \hyperpage{13}
+  \item \verb*+\rightmargin+\pfill \hyperpage{17}, \hyperpage{25}
+  \item \verb*+\roman+\pfill \hyperpage{13, 14}
+
+  \indexspace
+{\bfseries\hfil S\hfil}\nopagebreak
+
+  \item \verb*+\section+\pfill \hyperpage{29}
+  \item \verb*+\setkeys+\pfill \hyperpage{17}, \hyperpage{19--21}, 
+		\hyperpage{23, 24}, \hyperpage{26}
+  \item \verb*+\shipoutAnswer+\pfill \hyperpage{17}
+  \item \verb*+\shipoutExercise+\pfill \hyperpage{17}
+  \item \verb*+\smallskip+\pfill \hyperpage{23}
+  \item \verb*+\subQuestion+\pfill \hyperpage{20}
+  \item \verb*+\subQuestionBefore+\pfill \hyperpage{12}, \hyperpage{20}, 
+		\hyperpage{28}
+  \item \verb*+\subQuestionDifficulty+\pfill \hyperpage{14}, 
+		\hyperpage{20}
+  \item \verb*+\subQuestionHeader+\pfill \hyperpage{14}
+  \item \verb*+\subQuestionHeaderDifficulty+\pfill \hyperpage{14}, 
+		\hyperpage{20}
+  \item \verb*+\subQuestionHeaderTitle+\pfill \hyperpage{14}, 
+		\hyperpage{20}
+  \item \verb*+\subQuestionIndent+\pfill \hyperpage{12, 13}, 
+		\hyperpage{20}
+  \item \verb*+\subQuestionNB+\pfill \hyperpage{14}, \hyperpage{20}
+  \item \verb*+\subQuestionTitle+\pfill \hyperpage{14}, \hyperpage{20}
+  \item \verb*+\subsubQuestion+\pfill \hyperpage{21}
+  \item \verb*+\subsubQuestionBefore+\pfill \hyperpage{12}, 
+		\hyperpage{22}, \hyperpage{28}
+  \item \verb*+\subsubQuestionDifficulty+\pfill \hyperpage{14}, 
+		\hyperpage{21}
+  \item \verb*+\subsubQuestionHeader+\pfill \hyperpage{14}
+  \item \verb*+\subsubQuestionHeaderDifficulty+\pfill \hyperpage{14}, 
+		\hyperpage{21}
+  \item \verb*+\subsubQuestionHeaderTitle+\pfill \hyperpage{14}, 
+		\hyperpage{21}
+  \item \verb*+\subsubQuestionIndent+\pfill \hyperpage{13}, 
+		\hyperpage{22}
+  \item \verb*+\subsubQuestionNB+\pfill \hyperpage{14}, \hyperpage{21}
+  \item \verb*+\subsubQuestionTitle+\pfill \hyperpage{14}, 
+		\hyperpage{21}
+
+  \indexspace
+{\bfseries\hfil T\hfil}\nopagebreak
+
+  \item \verb*+\temp@Answerbox+\pfill \hyperpage{15}, \hyperpage{17}
+  \item \verb*+\temp@Exercisebox+\pfill \hyperpage{15}, \hyperpage{17}
+  \item \verb*+\tempskipa+\pfill \hyperpage{28}
+  \item \verb*+\tempskipb+\pfill \hyperpage{28}
+  \item \verb*+\termineliste+\pfill \hyperpage{15}, \hyperpage{17--22}, 
+		\hyperpage{24, 25}, \hyperpage{28}
+  \item \verb*+\the@QuestionLevel+\pfill \hyperpage{14}
+  \item \verb*+\theExePart+\pfill \hyperpage{13, 14}
+  \item \verb*+\theExePartDifficulty+\pfill \hyperpage{14}, 
+		\hyperpage{22}
+  \item \verb*+\theExercise+\pfill \hyperpage{13, 14}, 
+		\hyperpage{16--18}, \hyperpage{23, 24}
+  \item \verb*+\theExerciseDifficulty+\pfill \hyperpage{13}, 
+		\hyperpage{15}
+  \item \verb*+\thepage+\pfill \hyperpage{13}
+  \item \verb*+\theQuestion+\pfill \hyperpage{13}
+  \item \verb*+\theQuestionDifficulty+\pfill \hyperpage{14}
+  \item \verb*+\thesubQuestion+\pfill \hyperpage{13}
+  \item \verb*+\thesubQuestionDifficulty+\pfill \hyperpage{14}
+  \item \verb*+\thesubsubQuestion+\pfill \hyperpage{13}
+  \item \verb*+\thesubsubQuestionDifficulty+\pfill \hyperpage{14}
+  \item \verb*+\toc@exercise+\pfill \hyperpage{17, 18}, \hyperpage{28}
+  \item \verb*+\topsep+\pfill \hyperpage{17}, \hyperpage{19, 20}, 
+		\hyperpage{22}, \hyperpage{25}
+
+ \end{theindex}

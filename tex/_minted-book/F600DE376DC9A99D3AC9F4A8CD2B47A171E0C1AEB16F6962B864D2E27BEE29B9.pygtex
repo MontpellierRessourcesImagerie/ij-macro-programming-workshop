@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{a} \PYG{o}{=} \PYG{l+m+mi}{5}\PYG{o}{;}
+\PYG{n}{b} \PYG{o}{=} \PYG{n}{a}\PYG{o}{++} \PYG{o}{+} \PYG{l+m+mi}{3}\PYG{o}{;}
+\PYG{n}{c} \PYG{o}{=} \PYG{l+m+mi}{5}\PYG{o}{;}
+\PYG{n}{d} \PYG{o}{=} \PYG{o}{++}\PYG{n}{c} \PYG{o}{+} \PYG{l+m+mi}{3}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}b:\PYGZdq{}}\PYG{o}{,} \PYG{n}{b}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}a:\PYGZdq{}}\PYG{o}{,} \PYG{n}{a}\PYG{o}{);}	\PYG{n}{b}\PYG{o}{:} \PYG{l+m+mi}{8} \PYG{n}{a}\PYG{o}{:} \PYG{l+m+mi}{6}
+\PYG{n}{print}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}d:\PYGZdq{}}\PYG{o}{,} \PYG{n}{d}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}c:\PYGZdq{}}\PYG{o}{,} \PYG{n}{c}\PYG{o}{);}	\PYG{n}{d}\PYG{o}{:} \PYG{l+m+mi}{9} \PYG{n}{c}\PYG{o}{:} \PYG{l+m+mi}{6}
+\end{Verbatim}
