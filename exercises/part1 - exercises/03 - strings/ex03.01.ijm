@@ -2,30 +2,29 @@
 //
 // Aim: Understand string concatenation
 //
-// The command "Combine..." takes two images and combines them
-// in the same image window. You can call it using the run command.
-// run("Combine...'", options). options is a string of the form
-// "stack1=[<title1>] stack2=[<title2>]". <title1> and <title2>
-//* must be replaced by the actual titles of the images. Given the two 
-//* variables title1 and title2, construct the options string. 
+// Print a greetin in the form "Hello <firstname> <lastname>!" where
+// <firstname> and <lastname> should be the values entered by the user
+// in the two dialogs that will be displayed when running the macro.
+// Use string concatenation to produce the output String.
 
-run("Boats (356K)");
-run("Bridge (174K)");
-title1 = "boats.gif";
-title2 = "bridge.gif";
+firstname = getString("Enter your first name: ", "Alan");
+lastname = getString("Enter your last name:", "Turing");
+"\\Clear";
 
 // Your code starts after this line
-options = 
-// Your code ends before this line
 
-run("Combine...", options);
+
+// Your code ends before this line
 
 // The code below is for automatically checking the result. Please ignore it!
 //
-res = getTitle();
-"\\Clear";
-print(options);
-if (res=="Combined Stacks") 
+parts = split(getInfo("log"));
+result = (parts[0] == "Hello");
+result = result && (parts[1] == firstname);
+result = result && (startsWith(parts[2], lastname));
+result = result && (endsWith(parts[2], "!"));
+
+if (result) 
 	showMessage("That's right. Great, you did it!");
 else 
 	showMessage("Your result is wrong! Please check your macro and try again!");
