@@ -7,7 +7,7 @@
 //* and "area". Note that when you want to try the macro for different
 // values of radius you only have to change the value of the variable
 // radius instead of changing the value in each calculation.
-//
+// Note: the constant PI is defined in the macro language.
 
 // Your code starts after this line
 radius = 11.45;

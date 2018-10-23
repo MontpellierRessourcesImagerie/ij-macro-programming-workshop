@@ -3,7 +3,7 @@
 // Aim: understand the for-loop
 //
 //* Use a for loop to print the  numbers from 
-//* 1 to 11 to the log each ini its own row..
+//* 1 to 11 to the log each in its own row.
 
 "\\Clear";
 

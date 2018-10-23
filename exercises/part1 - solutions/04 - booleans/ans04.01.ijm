@@ -1,42 +1,33 @@
-// Exercise 04.01 - Booleans - Conditions
+// Exercise 04.01 - Booleans - Expressions
 //
-// Aim: Write a condition with a boolean result
+// Aim: Understand boolean expressions 
 //
-// Conway's game of life is a 2d-cellilar automaton that has the following rule:
-// A cell is either dead (0) or alife (255). In each timestep a cell becomes or stays alife
-// if it has three neighbors. A living cell stays alife if it has two neighbors.
-// Fill in the condition alife that should be true if the cell will be alife in the next 
-// timestep.
+// Consider the following boolean expression:
 //
-newImage("gol", "8-bit black", 300, 300, 20);	// Create a new image stack 
-run("Salt and Pepper", "slice");				// Set binary pixel values (0 and 255) randomly
-run("Salt and Pepper", "slice");
-run("In [+]");									// Zoom in
-run("In [+]");
-run("In [+]");
-width = getWidth();								// Get the width and height of the image
-height = getHeight();
+// The exclusive or is only true if both operands have different values. It can be expressed 
+// with the boolen operations and, or and not:
+// 		xor(A,B) = ((!A && B)||(A && !B))
+// Print the results of the xor operation for the four cominations of input value 
+// A=0,B=0; A=0,B=1; A=1,B=0 and A=1,B=1
 
-for (z=0; z<nSlices-1; z++) {					// For each slice in the stack
-	setZCoordinate(z);							// set the z-ccordinate for getPixel
-	setSlice(z+1);								// show the current slice
-	for (x=0; x<width; x++) {					// iterate over the current slice
-		for (y=0; y<height; y++) {
-			v = getPixel(x,y);					// get the current pixel value
-			nn =     (getPixel(x-1, y-1) +  getPixel(x, y-1) + getPixel(x+1, y-1) +				
-			 		  getPixel(x-1, y)   +                     getPixel(x+1, y) +
-			          getPixel(x-1, y+1) +  getPixel(x, y+1) + getPixel(x+1, y+1)) / 255;	// count the neighbors
-			          
-			// Your code starts after this line
-			alife = ((nn==3) || (v==255 && nn==2));		// true if nn is three or if v is 255 and nn is two
-			// Your code ends before this line
+"\\Clear";
+// Your code starts after this line
+A=0; B=0;
+print(((!A && B)||(A && !B)));
+A=0; B=1;
+print(((!A && B)||(A && !B)));
+A=1; B=0;
+print(((!A && B)||(A && !B)));
+A=1; B=1;
+print(((!A && B)||(A && !B)));
 
-			setZCoordinate(z+1);				// set the z-cooridnate in order to write to the next slice
-			if (alife) {						// if current cell stays or becomes alife set the pixel to 255 otherwise to 0
-				setPixel(x,y,255);
-			} else setPixel(x,y,0);
-			setZCoordinate(z);					// set the z-coordinate back for the next getPixel
-		}
-	}
-}
-setSlice(nSlices);								// display the last slice
+// Your code ends before this line
+
+// The code below is for automatically checking the result. Please ignore it!
+//
+parts = split(getInfo("log"));
+result = !parts[0] && parts[1] && parts[2] && !parts[3];
+if (result) 
+	showMessage("That's right. Great, you did it!");
+else 
+	showMessage("Your result is wrong! Please check your macro and try again!");
