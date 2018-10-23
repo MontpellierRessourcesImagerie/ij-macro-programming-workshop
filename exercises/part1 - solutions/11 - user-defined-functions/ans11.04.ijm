@@ -18,13 +18,13 @@ initializeTurtle();
 // Your code starts after this line
 spiral(50, 2, 20, 100);
 // dragon(8, 1 , 11);
-// myCurve(20, 6);
+// myCurve(33, 13);
 // Your code ends before this line
 
 function initializeTurtle() {
 	_X = getWidth() / 2;
 	_Y = getHeight() / 2;
-	moveTo(_X, _X);
+	moveTo(_X, _Y);
 	makeOval(_X - (_RADIUS / 2), _Y - (_RADIUS / 2), _RADIUS, _RADIUS);
 	Roi.setFillColor("green");
 }

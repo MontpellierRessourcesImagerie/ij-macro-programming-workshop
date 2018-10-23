@@ -8,12 +8,16 @@
 // 	right(a)
 // 	left(a)
 // Complete the function "right" below then use the commands to draw a rectangle. 
+// Note: a -= 10 is a short way to write a = a - 10. It works the same way for +.
 
 var _X = 0;
 var _Y = 0;
 var _ANGLE = 0;
 var _RADIUS = 20;
 var _DELAY = 400;
+
+newImage("turle graphics", "8-bit white", 1600, 1200, 1);
+setForegroundColor(0,0,0);
 
 initializeTurtle();
 // Your code starts after this line
@@ -30,7 +34,7 @@ right(90);
 function initializeTurtle() {
 	_X = getWidth() / 2;
 	_Y = getHeight() / 2;
-	moveTo(_X, _X);
+	moveTo(_X, _Y);
 	makeOval(_X - (_RADIUS / 2), _Y - (_RADIUS / 2), _RADIUS, _RADIUS);
 	Roi.setFillColor("green");
 }

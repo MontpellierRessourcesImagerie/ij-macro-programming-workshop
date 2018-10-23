@@ -11,6 +11,8 @@
 // 	factorial of 5,
 // 	the factorial of the factorial of 5 and 
 //	the factorial of 3. 
+// Hint: You can use a variable `result` to accumulate the product in the loop. 
+//       Initialize it with the appropriate value before the loop starts.
 
 "\\Clear";
 // Your code starts after this line

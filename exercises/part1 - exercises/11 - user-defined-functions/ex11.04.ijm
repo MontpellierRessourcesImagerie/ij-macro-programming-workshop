@@ -24,7 +24,7 @@ spiral(50, 2, 20, 100);
 function initializeTurtle() {
 	_X = getWidth() / 2;
 	_Y = getHeight() / 2;
-	moveTo(_X, _X);
+	moveTo(_X, _Y);
 	makeOval(_X - (_RADIUS / 2), _Y - (_RADIUS / 2), _RADIUS, _RADIUS);
 	Roi.setFillColor("green");
 }
