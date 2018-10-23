@@ -58,7 +58,7 @@ function initializeGame() {
 	autoUpdate(false);
 	list = getList("image.titles");
 	if (list.length>0) close();
-	if (_CURRENT_IMAGE_INDEX == -1) newImage("PONG" + _LIVES + " lives remaining", "8-bit white", 800, 600, 1);	
+	if (_CURRENT_IMAGE_INDEX == -1) newImage("PONG " + _LIVES + " lives remaining", "8-bit white", 800, 600, 1);	
 	else open(_DIR + "/" + _IMAGES[_CURRENT_IMAGE_INDEX]);
 	_WIDTH = getWidth();
 	_HEIGHT = getHeight();
