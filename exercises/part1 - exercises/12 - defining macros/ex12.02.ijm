@@ -1,21 +1,22 @@
-// Exercise 12.02 - Define a macro set with keyboard shortcuts for each macro
-//
-// Aim: Learn how to define macro sets.
-//
-// Write a macro set that contains the following macros and a keyboard shortcut for each
-// of the macros:
-//
-// the macro "new image" with the shortcut 'n' creates a new image
-// the macro "initialize turtle" with the shortcut 'i' initializes the turtle
-// the macro "spiral" with the shotcut 's' draws the spiral with a fixed set of parameters
-// the macro "dragon" with the shotcut 'd' draws the dragon curve with a fixed set of parameters
-// the macro "my curve" with the shortcut 'm' draws the recursive curve you defined in exercise  11.4
-//
-// Install the macros and use the keyboard shotcuts to run them. To install the macros copy the
-// content of the file into the Text-Editor that you can open from Plugins>New>Text Window...
-// and use the menu Macros>Install Macros of this editor.  When installed they will appear under
-// Plugins>Macros
+/* 
+# Exercise 12.02 - Define a macro set with keyboard shortcuts for each macro
 
+Aim: 
+- learn how to define macro sets.
+
+Write a macro set that contains the following macros and a keyboard shortcut for each of the macros:
+
+- the macro ``new image`` with the shortcut ``n`` creates a new image
+- the macro ``initialize turtle`` with the shortcut ``i`` initializes the turtle
+- the macro ``spiral`` with the shotcut ``s`` draws the spiral with a fixed set of parameters
+- the macro ``dragon`` with the shotcut ``d`` draws the dragon curve with a fixed set of parameters
+- the macro ``my curve`` with the shortcut ``m`` draws the recursive curve you defined in exercise 11.4
+
+Install the macros and use the keyboard shotcuts to run them. To install the macros copy the
+content of the file into the Text-Editor that you can open from ``Plugins>New>Text Window...``
+and use the menu ``Macros>Install Macros`` of this editor.  When installed they will appear under
+``Plugins>Macros``
+*/
 var _X = 0;
 var _Y = 0;
 var _ANGLE = 0;

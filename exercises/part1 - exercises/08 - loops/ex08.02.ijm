@@ -1,22 +1,25 @@
-// Exercise 08.02 - for-loop
-// 
-// Aim: Use the for-loop to iterate over the elements of an array.
-//
-//* Use the for-loop to iterate over the array "numbers" and replace 
-//* each  element with its square.
-// Note that the first index of an array is zero and the size of
-// the array numbers can be obtained with numbers.length
+/*
+# Exercise 08.02 - for-loop
+ 
+Aim: 
+- use the for-loop to iterate over the elements of an array.
+
+Use the for-loop to iterate over the array ``numbers`` and replace 
+each element with its square. 
+
+Note that the first index of an array is zero and the size of
+the array ``numbers`` can be obtained with ``numbers.length``. */
 
 "\\Clear";
-numbers = newArray(1,2,3,4,5,6,7,8,9,10);
-// Your code starts after this line
+numbers = newArray(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+/* Your code starts after this line */
 
 
 
-// Your code ends before this line
+/* Your code ends before this line */
 Array.print(numbers);
 
-// The code below is for automatically checking the result. Please ignore it!
+/* The code below is for automatically checking the result. Please ignore it! */
 
 res = split(getInfo("log"), ",");
 ok = (res.length==10);

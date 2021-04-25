@@ -1,13 +1,15 @@
-// Exercise 07.01 - If/then/else
-//
-// Aim: Understand conditionl code execution
-//
-// Get two numbers a and b from the user. Use
-// the if/then/else statement to set the variable
-// result to the maximum of the numbers a and b.
+/*   
+# Exercise 07.01 - If/then/else
+
+Aim: 
+- understand conditional code execution
+
+Get two numbers ``a`` and ``b`` from the user. Use
+the ``if/then/else`` statement to set the variable
+``result`` to the maximum of the numbers ``a`` and ``b``. */
 
 "\\Clear";
-// Your code starts after this line
+/* Your code starts after this line */
 
 
 
@@ -15,11 +17,11 @@
 
 
 
-// Your code ends before this line
+/* Your code ends before this line */
 print("max("+a+", "+b+")=" + result);
 
 
-// The code below is for automatically checking the result. Please ignore it!
+/* The code below is for automatically checking the result. Please ignore it! */
 parts = split(getInfo("log"),"=");
 logText = parts[1];
 ok = (indexOf(logText, toString(maxOf(a,b)))!=-1);

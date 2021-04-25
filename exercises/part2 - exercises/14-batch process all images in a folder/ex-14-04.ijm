@@ -1,12 +1,12 @@
-// Exercise 13.4 - Working on all images in a folder
-//
-// Aim: Learn how to apply a macro to all images in a folder,
-// load related images and save result images.
-//
-//* Complete the macro below so that the merging of the two
-//* channels is applied to all images in the input folder. Base 
-// your macro on the results of the previous exercises.
- 
+/* 
+# Exercise 14.4 - Working on all images in a folder
+
+Aim: 
+- learn how to apply a macro to all images in a folder, load related images and save result images.
+
+Complete the macro below so that the merging of the two channels is applied to all images in the input folder. 
+Base your macro on the results of the previous exercises.
+*/
 path = getDirectory("Input directory");			// Ask the user for the input directory
 files = getFileList(path);						// get an array containing the names of all files in the directory path
 File.mkdir(path + "out");						// create the output directory

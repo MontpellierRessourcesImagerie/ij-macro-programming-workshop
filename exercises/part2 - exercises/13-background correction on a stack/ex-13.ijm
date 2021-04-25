@@ -1,26 +1,29 @@
-// Exercise 12 - background correction on a stack
-//
-// Aim: Apply some of the technics learned in the first part to 
-// correct the background in a time series. Learn how to pass
-// the value of a variable to a command that is called with run.
-//
-// Look at the time-series "actine-stack.tif". The base level
-// of the background varies from frame to frame. Fill in the
-// gaps in the macro below. It will correct the background in
-// the time-series, so that the flimmering when watching the
-// film will disapear.
-// The user should make a selection on the background before
-// starting the macro.
-//
-// useful commands
-//	 nSlices - the number of slilces in the stack
-// 	setSlice(i) - set the current slice
-// 	getStatistics(area, mean);
-// 	run("Select None");
-// 	run("Restore Selection");
-// 	run("Subtract...", "value=5 slice");
+/* 
+ # Exercise 13 - background correction on a stack
 
-// Your code starts after this line
+Aim: 
+- apply some of the technics learned in the first part to 
+correct the background in a time series. Learn how to pass
+the value of a variable to a command that is called with run.
+
+Look at the time-series ``actine-stack.tif``. The base level
+of the background varies from frame to frame. Fill in the
+gaps in the macro below. It will correct the background in
+the time-series, so that the flimmering when watching the
+film will disapear.
+
+The user should make a selection on the background before
+starting the macro.
+
+useful commands:
+- ``nSlices`` - the number of slices in the stack
+- ``setSlice(i)`` - set the current slice
+- ``getStatistics(area, mean);``
+- ``run("Select None");``
+- ``run("Restore Selection");``
+- ``run("Subtract...", "value=5 slice");``
+
+Your code starts after this line */
 for (i=1; /* replace this comment */ i++) {	// iterate over all frames of the time-series
     setSlice(/* replace this comment */);	// set the current slice
     getStatistics(area, mean);			// get the mean intensity of the current selection (the variable mean will be set to it).
@@ -28,7 +31,7 @@ for (i=1; /* replace this comment */ i++) {	// iterate over all frames of the ti
     run("Subtract...", "value=" /* replace this comment */ " slice");	// subtract the mean value of the background, measured on the current frame, from the current frame from the 
     run(/* replace this comment */);										// Restore the original selection of a background region for the next iteration.
 }
-// Your code ends before this line
+/* Your code ends before this line */
 
 // The code below is for automatically checking the result. Please ignore it!
 run("Select None");	

@@ -1,30 +1,34 @@
-// Exercise 07.01 - If/then/else
-//
-// Aim: Understand conditionl code execution
-//
-// The macro will ask the user to enter a number.
-//* Use the if/then/else statement to print to the 
-//* log if the entered number is even or odd. 
-// The test can be done with the modulo operator (%):
-// (a%2==0) means the number a is even. 
+/* 
+# Exercise 07.01 - If/then/else
 
-// Note that the message you print to the log must contain 
-// the word even if the number is even and odd otherwise 
-// in order for the evaluation code to work.
+Aim:
+- understand conditional code execution
+
+The macro will ask the user to enter a number.
+
+Use the if/then/else statement to print to the 
+log if the entered number is even or odd. 
+
+The test can be done with the modulo operator ``%``:
+``(a%2==0)`` means the number ``a`` is even. 
+
+Note that the message you print to the log must contain 
+the word even if the number is even and odd otherwise 
+in order for the evaluation code to work. */
 
 "\\Clear";
 a = getNumber("Enter a number: ", 13);
 
-// Your code starts after this line
+/* Your code starts after this line */
 
 
 
 
 
 
-// Your code ends before this line
+/* Your code ends before this line */
 
-// The code below is for automatically checking the result. Please ignore it!
+/* The code below is for automatically checking the result. Please ignore it! */
 isEven = (a%2==0);
 logText = getInfo("log");
 ok = true;

@@ -1,12 +1,15 @@
-// Exercise 11.04 - user defined functions and recursion
-//
-// Aim: Get an idea of how recursion works.
-//
-// Based on turtle graphics from exercise 11.02, we can create some recursive 
-//* curves. Try the different curves below. Run them with different parameters. 
-//* Look at the code that produces the curves. Do you understand how they work. 
-//* Write a function in which you define your own recursive curve.
+/*
+# Exercise 11.04 - user defined functions and recursion
 
+Aim: 
+- get an idea of how recursion works.
+
+Based on turtle graphics from exercise 11.02, we can create some recursive 
+curves. Try the different curves below! Run them with different parameters!
+
+Look at the code that produces the curves! Do you understand how they work? 
+Write a function in which you define your own recursive curve!
+*/
 var _X = 0;
 var _Y = 0;
 var _ANGLE = 0;

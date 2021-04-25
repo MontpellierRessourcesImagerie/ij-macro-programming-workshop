@@ -1,13 +1,14 @@
-// Exercise 16.1 - Sort the rois and the result table by the values in a given column
-//
-// Aim: Learn how to work with result tables and the roi-manager
-//
-//  Open the image images/16 in ImageJ, manually use the Threshold-Adjuster and the
-// Particle-Analyzer to add the rois of the nuclei to the roi-manager. Measure the rois in the
-// roi-manager.
-//* Complete the macro below that will sort rois and results by the values in a given column.
-//
+/* 
+# Exercise 17.1 - Sort the rois and the result table by the values in a given column
 
+Aim: 
+- learn how to work with result tables and the roi-manager
+
+Open the image images/17 in ImageJ, manually use the Threshold-Adjuster and the
+Particle-Analyzer to add the rois of the nuclei to the roi-manager. Measure the rois in the roi-manager.
+
+Complete the macro below, that will sort rois and results by the values in a given column.
+*/
 FEATURE = "Mean";
 REVERSE = true;
 
@@ -23,16 +24,16 @@ for (i=0; /* iterate as long as i is smaller than the count of elements in the r
 	/* select the element number i in the roi manager*/
 	/* Rename the selected roi in the roi manager to its position in the sorted list, that is rename it to IJ.pad(ranks[i], 4) */
 }
-/* Deselect all rois in the roi-manager */
-/* Sort the rois in the roi-manager according to their names */
+// Deselect all rois in the roi-manager 
+// Sort the rois in the roi-manager according to their names 
 selectWindow("Results");
 run("Close");
 roiManager("Show None");
 roiManager("Show All");
-/* Measure the rois in the roi manager*/
-// Your code ends before this line
+// Measure the rois in the roi manager*/
+/* Your code ends before this line */
 
-// The code below is for automatically checking the result. Please ignore it!
+/* The code below is for automatically checking the result. Please ignore it! */
 ok = (nResults>1);
 for(i=0; i<nResults-1; i++) {
 	value = getResult(FEATURE,i);

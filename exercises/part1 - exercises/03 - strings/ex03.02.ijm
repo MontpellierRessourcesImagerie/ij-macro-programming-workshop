@@ -1,31 +1,27 @@
-// Exercise 03.02 - Strings - Concatenation
-//
-// Aim: Understand string concatenation
-//
-// The command "Combine..." takes two images and combines them
-// in the same image window. You can call it using the run command.
-// run("Combine...'", options). options is a string of the form
-// "stack1=[<title1>] stack2=[<title2>]". <title1> and <title2>
-//* must be replaced by the actual titles of the images. Given the two 
-//* variables title1 and title2, construct the options string. 
+/*
+# Exercise 03.02 - Strings - Regular expressions
+Aims: 
+- get an idea of what can be done with regular expressions
 
-run("Boats (356K)");
-run("Bridge (174K)");
-title1 = "boats.gif";
-title2 = "bridge.gif";
+Write a regular expression that matches strings which contain `_t` 
+followed by three digits. The following constructs might be useful:
+- `.` - anything one time 
+- `*` - zero, one or any number of repetitions of the preceding
+- `[0-9]` - any digit one time
 
-// Your code starts after this line
-options = 
-// Your code ends before this line
+An example: The regexp `".*[0-9][0-9]a.*"` matches strings that somewhere contain 
+two digits one after the other followed by an `a` (the prefix and postfix can be
+arbitrary strings).
 
-run("Combine...", options);
+Your code starts after this line */
+regExp = "";
+/* Your code ends before this line
 
-// The code below is for automatically checking the result. Please ignore it!
-//
-res = getTitle();
-"\\Clear";
-print(options);
-if (res=="Combined Stacks") 
+The code below is for automatically checking the result. Please ignore it! */
+
+res = matches("A01GFP_c001_t001_z001.tif" , regExp);
+res = res && !matches("A01GFP_c001_t0a1_z001.tif" , regExp);
+if (res) 
 	showMessage("That's right. Great, you did it!");
 else 
 	showMessage("Your result is wrong! Please check your macro and try again!");

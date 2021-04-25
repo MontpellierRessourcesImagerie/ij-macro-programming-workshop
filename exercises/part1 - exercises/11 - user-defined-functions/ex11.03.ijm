@@ -1,20 +1,21 @@
-// Exercise 11.03 - user defined functions and recursion
-//
-// Aim: Get an idea of how recursion works.
-//
-//* Write a recursive version of the factorial function and use it
-//* to print the   
-//* 	factorial of 5 and
-//* 	the factorial 10
-//
-// Note that the factorial can be defined as 
-//	factorial(0) = 1
-//	factorial(n) = n * factorial(n-1).
+/*
+# Exercise 11.03 - user defined functions and recursion
 
- // Your code starts after this line
+Aim: 
+- get an idea of how recursion work
+
+Write a recursive version of the factorial function and use it
+to print the factorial of 5 and the factorial 10
+
+Note that the factorial can be defined as 
+- ``factorial(0) = 1``
+- ``factorial(n) = n * factorial(n-1)``
+
+Your code starts after this line 
+*/
 print();
 print();
- // Your code ends before this line
+/* Your code ends before this line */
 
 function factorial(n) {
 // Your code starts after this line

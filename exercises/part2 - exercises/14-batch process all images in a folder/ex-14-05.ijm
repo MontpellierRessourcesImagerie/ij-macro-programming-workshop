@@ -1,25 +1,28 @@
-// Exercise 13.5 - Running a macro in batch-mode
-//
-// Aim: Learn to macros in batch-mode and use the log-window
-// to report progress.
-//
-// Modify the macro from exercise 13.04 so that it runs in batch-mode. 
-// It should report the start, the end and the progress to the log-window.
-// You can use the command print("\\Update1: <your message>") to update
-// the line 1 in the log file.
-// Useful commands:
-//	setBatchMode(true)				-	Switches to batch processing. Images are not shown anymore.
-//	setBatchMode("exit and display")	-	Exits batch-mode and shows all images still open.
+/*
+ # Exercise 14.5 - Running a macro in batch-mode
 
-// Your code starts after this line
+Aim: 
+- learn to run macros in batch-mode and use the log-window to report progress.
+
+Modify the macro from exercise 14.04 so that it runs in batch-mode. 
+It should report the start, the end and the progress to the log-window.
+
+You can use the command ``print("\\Update1: <your message>")`` to update
+the line 1 in the log file.
+
+Useful commands:
+- ``setBatchMode(true)``					Switches to batch processing. Images are not shown anymore.
+- ``setBatchMode("exit and display")``		Exits batch-mode and shows all images still open.
+
+Your code starts after this line */
 path = getDirectory("Input directory");			// Ask the user for the input directory
-/* report the start of the macro to the log-file */
-/* start batch mode here */
+// report the start of the macro to the log-file 
+// start batch mode here 
 files = getFileList(path);						// get an array containing the names of all files in the directory path
 File.mkdir(path + "out");						// create the output directory
 for(i=0; i<files.length; i++) {					// iterate over all files
 	image = files[i];							// get the name of the current file
-	/* report the progress here */
+	// report the progress here 
 	if (indexOf(image, "dapi") != -1 && indexOf(image, ".tif") != -1) {	// if the current file is a dapi-image...
 		open(path + image);
 		imageRHOD = replace(image, "dapi", "rhod");
@@ -29,11 +32,11 @@ for(i=0; i<files.length; i++) {					// iterate over all files
 		close();
 	}
 }
-/* end batch mode here */
-/* report the end of the macro to the log-file */
-// Your code ends before this line
+// end batch mode here 
+// report the end of the macro to the log-file 
+/* Your code ends before this line
 
-// The code below is for automatically checking the result. Please ignore it!
+The code below is for automatically checking the result. Please ignore it! */
 ok = (nImages==0);
 ok = (ok && File.exists(path+"/out"));
 files = getFileList(path+"/out");

@@ -1,13 +1,16 @@
-// Exercise 04.02 - Booleans - Conditions
-//
-// Aim: Write a condition with a boolean result
-//
-// Conway's game of life is a 2d-cellular automaton that has the following rule:
-// A cell is either dead (0) or alife (255). In each timestep a cell becomes or stays alife
-// if it has three neighbors. A living cell stays alife if it has two neighbors.
-// Fill in the condition alife that should be true if the cell will be alife in the next 
-// timestep.
-//
+/*
+# Exercise 04.02 - Booleans - Conditions
+Aims: 
+- write a condition with a boolean result
+
+Conway's game of life is a 2d-cellular automaton that has the following rule:
+1. A cell is either dead (0) or alife (255). 
+1. In each timestep a cell becomes or stays alife if it has three neighbors. 
+1. A living cell stays alife if it has two neighbors.
+
+Fill in the condition alife that should be true if the cell will be alife in the next 
+timestep.
+*/
 newImage("gol", "8-bit black", 300, 300, 20);	// Create a new image stack 
 run("Salt and Pepper", "slice");				// Set binary pixel values (0 and 255) randomly
 run("Salt and Pepper", "slice");
@@ -28,7 +31,7 @@ for (z=0; z<nSlices-1; z++) {					// For each slice in the stack
 			          getPixel(x-1, y+1) +  getPixel(x, y+1) + getPixel(x+1, y+1)) / 255;	// count the neighbors
 			          
 			// Your code starts after this line
-			alife =								// true if nn is three or if v is 255 and nn is two
+												// true if nn is three or if v is 255 and nn is two
 			// Your code ends before this line
 
 			setZCoordinate(z+1);				// set the z-cooridnate in order to write to the next slice
