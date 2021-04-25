@@ -8,4 +8,4 @@ In the first part you will learn the basics of programming.
 
 ### Exercises
 
-01.01 [Hello World version 1](https://montpellierressourcesimagerie.github.io/ij-macro-programming-workshop/ex/ex01-01.html)
+01.01 [Hello World version 1](https://montpellierressourcesimagerie.github.io/ij-macro-programming-workshop/ex/ex01-01.md)
