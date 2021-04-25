@@ -13,7 +13,11 @@ In the first part you will learn the basics of programming.
     1. [Hello World version 2](./ex/ex01-02.md)
     1. [Hello World version 3](./ex/ex01-03.md)
     1. [Recording macros](./ex/ex01-04.md)
-    
+1. **Numbers**    
+    1. [Literals and special values](./ex/ex02-01.md)
+    1. [Calculations](./ex/ex02-02.md)
+    1. [Comparing floats](./ex/ex02-03.md)
+
 ### Solutions
 
 1. **Getting started: "Hello World" and recording macros**
@@ -21,3 +25,8 @@ In the first part you will learn the basics of programming.
     1. [Hello World version 2](./ans/ans01-02.md)
     1. [Hello World version 3](./ans/ans01-03.md)
     1. [Recording macros](./ans/ans01-04.md)
+1. **Numbers**    
+    1. [Literals and special values](./ans/ans02-01.md)
+    1. [Calculations](./ans/ans02-02.md)
+    1. [Comparing floats](./ans/ans02-03.md)
+
