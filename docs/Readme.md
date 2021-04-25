@@ -9,7 +9,7 @@ In the first part you will learn the basics of programming.
 ### Exercises
 
 1. **Hello World**
-    1. [Hello World ¶version 1](./ex/ex01-01.md)
+    1. [Hello World version 1](./ex/ex01-01.md)
 
 ### Solutions
 
