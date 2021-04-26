@@ -1,21 +1,23 @@
-// Exercise 05.02 - Variables and assignment
-//
-// Aim: Understand that variables containing numbers or strings are 
-// copied by value in an assignment.
-//
-// Create a variable a and assign a value to it. Create a second variable
-// b and assign a to it. Modify the value of b. Print out the values of a 
-// and b. Did the value of a change when b was modified?
+/* 
+# Exercise 05.02 - Variables and assignment
 
-// Your code starts after this line
+Aim: 
+- Understand that variables containing numbers or strings are copied *by value* in an assignment.
+
+Create a variable ``a`` and assign a value to it. Create a second variable ``b`` and assign ``a`` to it. 
+Modify the value of ``b``. What is the value of ``a`` now?
+
+The macro prints the values of ``a`` and ``b``. Did the value of ``a`` change when ``b`` was modified?
+
+Your code starts after this line */
 a = 1000;
 b = a;
 b = b + 500;
-// Your code ends before this line
+/* Your code ends before this line */
 
 print("a: ", a, "b:", b);
 
-// The code below is for automatically checking the result. Please ignore it!
+/* The code below is for automatically checking the result. Please ignore it! */
 
 ok = (a!=b);
 
