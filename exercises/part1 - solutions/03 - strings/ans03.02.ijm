@@ -1,31 +1,28 @@
-// Exercise 03.02 - Strings - Concatenation
-//
-// Aim: Understand string concatenation
-//
-// The command "Combine..." takes two images and combines them
-// in the same image window. You can call it using the run command.
-// run("Combine...'", options). options is a string of the form
-// "stack1=[<title1>] stack2=[<title2>]". <title1> and <title2>
-//* must be replaced by the actual titles of the images. Given the two 
-//* variables title1 and title2, construct the options string. 
+/* 
+# Exercise 03.02 - Strings - Concatenation 2
 
-run("Boats (356K)");
-run("Bridge (174K)");
-title1 = "boats.gif";
-title2 = "bridge.gif";
+Aim: 
+- Understand string concatenation
 
-// Your code starts after this line
-options = "stack1=[" + title1 + "] stack2=[" + title2 + "]";
-// Your code ends before this line
+Ask the user to enter a number and pass the number as  a parameter to the Gaussian Blur filter. 
+The Gaussian Blur filter will smooth the image. To run for example a Gaussian Blur filter
+with the parameter ``sigma=3`` you can use:
+> ``run("Gaussian Blur...", "sigma=3");``
 
-run("Combine...", options);
+Complete the code below, run it and enter 5 as parameter value.
+*/
+run("Clown (14K)");
+/*
+Your code starts after this line */
+s = getNumber("enter a value:", 1);
+run("Gaussian Blur...", "sigma="+s);
+/* 
+Your code ends before this line
 
-// The code below is for automatically checking the result. Please ignore it!
-//
-res = getTitle();
+The code below is for automatically checking the result. Please ignore it! */
 "\\Clear";
-print(options);
-if (res=="Combined Stacks") 
+v = getPixel(126,90);
+if (v==-7445689) 
 	showMessage("That's right. Great, you did it!");
 else 
 	showMessage("Your result is wrong! Please check your macro and try again!");

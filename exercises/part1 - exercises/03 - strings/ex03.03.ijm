@@ -20,7 +20,9 @@ title2 = "bridge.gif";
 
 /* 
 Your code starts after this line */
-options = "stack1=[" + title1 + "] stack2=[" + title2 + "]";
+
+options = 
+
 /* Your code ends before this line */
 
 run("Combine...", options);
