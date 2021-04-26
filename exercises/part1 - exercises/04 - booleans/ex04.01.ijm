@@ -6,10 +6,9 @@ Aim:
 
 The exclusive or is only true if both operands have different values. It can be expressed 
 with the boolen operations and, or and not:
-> 		xor(A,B) = ((!A && B)||(A && !B))
+> 		((!A && B)||(A && !B))
 
-Write a function that implements the exclusive or. 
-Use it to print the results of the ``xor`` operation for the four combinations of input values: 
+Use the boolean expression to print the results of the xor operation for the four combinations of input value.
 
 > A | B
 
@@ -28,12 +27,9 @@ Use it to print the results of the ``xor`` operation for the four combinations o
 
 
 
-
-
 /* Your code ends before this line
 
-// The code below is for automatically checking the result. Please ignore it!
-*/
+// The code below is for automatically checking the result. Please ignore it! */
 parts = split(getInfo("log"));
 result = !parts[0] && parts[1] && parts[2] && !parts[3];
 if (result) 
