@@ -23,20 +23,3 @@ In the first part you will learn the basics of programming.
     1. [Concatenation 3](./ex/ex03-03.md) 
     1. [Regular Expressions](./ex/ex03-04.md)
 
-### Solutions
-
-1. **Getting started: "Hello World" and recording macros**
-    1. [Hello World version 1](./ans/ans01-01.md)
-    1. [Hello World version 2](./ans/ans01-02.md)
-    1. [Hello World version 3](./ans/ans01-03.md)
-    1. [Recording macros](./ans/ans01-04.md)
-1. **Numbers**    
-    1. [Literals and special values](./ans/ans02-01.md)
-    1. [Calculations](./ans/ans02-02.md)
-    1. [Comparing floats](./ans/ans02-03.md)
-1. **Strings**
-    1. [Concatenation 1](./ans/ans03-01.md) 
-    1. [Concatenation 2](./ans/ans03-02.md) 
-    1. [Concatenation 3](./ans/ans03-03.md) 
-    1. [Regular Expressions](./ans/ans03-04.md)
-
