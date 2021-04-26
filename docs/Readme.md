@@ -25,3 +25,7 @@ In the first part you will learn the basics of programming.
 1. **Booleans**
     1. [Boolean Expressions](./ex/ex04-01.md)
     1. [Conway's Game of Life](./ex/ex04-02.md)
+1. **Variables**
+    1. [Assignment](./ex/ex05-01.md)
+    1. [Copy by value](./ex/ex05-02.md)
+    1. [Pre- and Postincrement](./ex/ex05-03.md)
