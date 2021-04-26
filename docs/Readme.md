@@ -17,6 +17,11 @@ In the first part you will learn the basics of programming.
     1. [Literals and special values](./ex/ex02-01.md)
     1. [Calculations](./ex/ex02-02.md)
     1. [Comparing floats](./ex/ex02-03.md)
+1. **Strings**
+    1. [Concatenation 1](./ex/ex03-01.md) 
+    1. [Concatenation 2](./ex/ex03-02.md) 
+    1. [Concatenation 3](./ex/ex03-03.md) 
+    1. [Regular Expressions](./ex/ex03-04.md)
 
 ### Solutions
 
@@ -29,4 +34,9 @@ In the first part you will learn the basics of programming.
     1. [Literals and special values](./ans/ans02-01.md)
     1. [Calculations](./ans/ans02-02.md)
     1. [Comparing floats](./ans/ans02-03.md)
+1. **Strings**
+    1. [Concatenation 1](./ans/ans03-01.md) 
+    1. [Concatenation 2](./ans/ans03-02.md) 
+    1. [Concatenation 3](./ans/ans03-03.md) 
+    1. [Regular Expressions](./ans/ans03-04.md)
 
