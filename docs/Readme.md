@@ -22,6 +22,6 @@ In the first part you will learn the basics of programming.
     1. [Concatenation 2](./ex/ex03-02.md) 
     1. [Concatenation 3](./ex/ex03-03.md) 
     1. [Regular Expressions](./ex/ex03-04.md)
-1 **Booleans**
+1. **Booleans**
     1. [Boolean Expressions](./ex/ex04-01.md)
     1. [Conway's Game of Life](./ex/ex04-02.md)
