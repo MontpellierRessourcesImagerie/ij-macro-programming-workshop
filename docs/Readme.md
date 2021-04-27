@@ -29,3 +29,7 @@ In the first part you will learn the basics of programming.
     1. [Assignment](./ex/ex05-01.md)
     1. [Copy by value](./ex/ex05-02.md)
     1. [Pre- and Postincrement](./ex/ex05-03.md)
+1. **Arrays**
+    1. [Creating Arrays and accessing elements](./ex/ex06-01.md)
+    1. [Copy by reference](./ex/ex06-02.md) 
+    1. [Concatenation](./ex/ex06-03.md) 
