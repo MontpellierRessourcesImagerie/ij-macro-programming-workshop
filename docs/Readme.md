@@ -44,3 +44,5 @@ In the first part you will learn the basics of programming.
 1. **While-Loop**
     1. [While loop 1 - Newton's method](./ex/ex09-01.md)
     1. [While loop 2 - random walk](./ex/ex09-02.md) 
+1. **Do-While-Loop**
+    1. [Do while loop](./ex/ex10-01.md)  
