@@ -33,6 +33,6 @@ In the first part you will learn the basics of programming.
     1. [Creating Arrays and accessing elements](./ex/ex06-01.md)
     1. [Copy by reference](./ex/ex06-02.md) 
     1. [Concatenation](./ex/ex06-03.md) 
-1. **Conditionals
-    1. [Conditionals 1 - even/odd](./ex/ex07.01.md)
-    1. [Conditionals 2 - max](./ex/ex07.02.md)
+1. **Conditionals**
+    1. [Conditionals 1 - even/odd](./ex/ex07-01.md)
+    1. [Conditionals 2 - max](./ex/ex07-02.md)
