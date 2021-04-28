@@ -11,6 +11,8 @@ and that understands the commands
 - ``left(a)``
 
 Complete the function ``right`` below then use the commands to draw a rectangle. 
+
+Note: ``a -= 10`` is a short way to write ``a = a - 10``. It works the same way for ``+=``.
 */
 var _X = 0;
 var _Y = 0;
@@ -30,7 +32,6 @@ Your code starts after this line */
 
 
 /* Your code ends before this line */
-
 function initializeTurtle() {
 	_X = getWidth() / 2;
 	_Y = getHeight() / 2;

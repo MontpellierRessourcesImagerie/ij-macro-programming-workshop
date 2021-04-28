@@ -21,16 +21,16 @@ Use the function to print
 print(	);
 print(	);
 print(	);
-/* Your code ends before this line */
+/* Your code ends before this line
 
-/* Your code starts after this line */
+Your code starts after this line */
 function factorial(n) {
 
 
 }
-/* Your code ends before this line */
+/* Your code ends before this line
 
-/* The code below is for automatically checking the result. Please ignore it! */
+The code below is for automatically checking the result. Please ignore it! */
 output = split(getInfo("log"));
 ok = ((parseInt(output[0]) == 120) && (output[1]=="6.689502913449124E198") && (parseInt(output[2]) == 6));
 if (ok)
