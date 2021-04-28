@@ -36,3 +36,8 @@ In the first part you will learn the basics of programming.
 1. **Conditionals**
     1. [Conditionals 1 - even/odd](./ex/ex07-01.md)
     1. [Conditionals 2 - max](./ex/ex07-02.md)
+1. **For-Loop**
+    1. [For loop 1 - iteration](./ex/ex08-01.md)
+    1. [For loop 2 - iteration and arrays](./ex/ex08-02.md)
+    1. [For loop 3 - iteration and images](./ex/ex08-03.md)
+    1. [For loop 4 - iteration and animation](./ex/ex08-04.md)
