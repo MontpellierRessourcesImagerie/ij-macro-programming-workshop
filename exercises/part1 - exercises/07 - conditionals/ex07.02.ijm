@@ -1,5 +1,5 @@
 /*   
-# Exercise 07.01 - If/then/else
+# Exercise 07.02 - If/then/else
 
 Aim: 
 - understand conditional code execution
