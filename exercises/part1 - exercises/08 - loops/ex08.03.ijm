@@ -27,9 +27,9 @@ height = getHeight();
 
 
 
-/* Your code ends before this line */
+/* Your code ends before this line
 
-/* The code below is for automatically checking the result. Please ignore it! */
+The code below is for automatically checking the result. Please ignore it! */
 ok = (getPixel(2,3) == 6);
 ok = (ok && (getPixel(10,20) == 200));
 ok = (ok && (getPixel(12,12) == 144));

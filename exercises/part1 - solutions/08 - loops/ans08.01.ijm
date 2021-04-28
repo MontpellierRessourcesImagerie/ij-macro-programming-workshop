@@ -1,19 +1,20 @@
-// Exercise 08.01 - for-loop
-//
-// Aim: understand the for-loop
-//
-//* Use a for loop to print the  numbers from 
-//* 1 to 11 to the log each in its own row.
+/*   
+# Exercise 08.01 - for-loop
+
+Aim: 
+- understand the for-loop
+
+Use a for loop to print the numbers from 1 to 11 to the log, each in its own row. */
 
 "\\Clear";
 
-// Your code starts after this line
+/* Your code starts after this line */
 for(i=1; i<=11; i++) {
 	print(i);
 }
-// Your code ends before this line
+/* Your code ends before this line */
 
-// The code below is for automatically checking the result. Please ignore it!
+The code below is for automatically checking the result. Please ignore it! */
 res=split(getInfo("log"));
 ok = (res[0] == 1);
 ok = (ok && (res[1] == 2));
