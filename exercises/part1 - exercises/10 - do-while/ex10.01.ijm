@@ -12,9 +12,9 @@ do {
 /* Your code starts after this line */
 	n =	
 } while (                                );
-/* Your code ends before this line */
+/* Your code ends before this line 
 
-/* The code below is for automatically checking the result. Please ignore it! */
+The code below is for automatically checking the result. Please ignore it! */
 ok = (n>=0 && n<=1);
 if (ok)
 	showMessage("That's right. Great, you did it!");
