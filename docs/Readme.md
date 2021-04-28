@@ -41,6 +41,6 @@ In the first part you will learn the basics of programming.
     1. [For loop 2 - iteration and arrays](./ex/ex08-02.md)
     1. [For loop 3 - iteration and images](./ex/ex08-03.md)
     1. [For loop 4 - iteration and animation](./ex/ex08-04.md)
-1 **While-Loop**
+1. **While-Loop**
     1. [While loop 1 - Newton's method](./ex/ex09-01.md)
     1. [While loop 2 - random walk](./ex/ex09-02.md) 
