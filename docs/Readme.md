@@ -46,3 +46,8 @@ In the first part you will learn the basics of programming.
     1. [While loop 2 - random walk](./ex/ex09-02.md) 
 1. **Do-While-Loop**
     1. [Do while loop](./ex/ex10-01.md)  
+1. **Functions**
+    1. [Functions - factorial](./ex/ex11-01.md)
+    1. [Functions - turtle graphics](./ex/ex11-02.md)
+    1. [Functions - recursive functions](./ex/ex11-03.md)
+    1. [Functions - recursive curves](./ex/ex11-04.md)
