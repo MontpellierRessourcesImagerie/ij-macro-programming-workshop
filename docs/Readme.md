@@ -51,3 +51,6 @@ In the first part you will learn the basics of programming.
     1. [Functions - turtle graphics](./ex/ex11-02.md)
     1. [Functions - recursive functions](./ex/ex11-03.md)
     1. [Functions - recursive curves](./ex/ex11-04.md)
+1. **Macros**
+    1. [Macros as plugins](./ex/ex12-01.md)
+    1. [Macro sets](./ex/ex12-02.md) 
