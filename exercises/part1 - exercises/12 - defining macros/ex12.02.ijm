@@ -23,9 +23,11 @@ var _ANGLE = 0;
 var _RADIUS = 20;
 var _DELAY = 20;
 
-// Your code starts after this line
+/* Your code starts after this line */
 
-// Your code ends before this line
+
+
+/* Your code ends before this line */
 
 function initializeTurtle() {
 	_X = getWidth() / 2;
