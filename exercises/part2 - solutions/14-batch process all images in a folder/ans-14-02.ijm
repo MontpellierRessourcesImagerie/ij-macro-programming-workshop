@@ -1,4 +1,4 @@
-// Exercise 13 - Merging two images. 
+// Exercise 14.2 - Merging two images. 
 //
 // Aim: Learn how to pass parameters to a menu command excuted with with run command
 //

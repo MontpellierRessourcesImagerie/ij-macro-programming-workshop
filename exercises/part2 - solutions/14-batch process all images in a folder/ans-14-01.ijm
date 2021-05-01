@@ -1,4 +1,4 @@
-// Exercise 13 - Open related files
+// Exercise 14.1- Open related files
 //
 // Aim: Learn how to open images related images, by using string operations
 // on the filename.

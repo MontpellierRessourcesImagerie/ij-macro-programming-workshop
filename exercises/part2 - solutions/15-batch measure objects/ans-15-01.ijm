@@ -1,4 +1,4 @@
-// Exercise 14.1 - Measure objects on all images in a folder
+// Exercise 15.1 - Measure objects on all images in a folder
 //
 // Aim: Learn how to use the threshold and the particle analyzer
 // in a batch macro.

@@ -1,4 +1,4 @@
-// Exercise 17.1 - Show the rois of selected measurements
+// Exercise 18.1 - Show the rois of selected measurements
 //
 // Aim: Learn to link the results table to the image by using string processing and 
 // the roi manager.

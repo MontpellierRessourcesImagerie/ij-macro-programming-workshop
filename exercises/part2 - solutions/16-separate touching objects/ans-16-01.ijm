@@ -1,4 +1,4 @@
-// Exercise 15.1 - Separate nuclei by using a binary watershed
+// Exercise 16.1 - Separate nuclei by using a binary watershed
 //
 // Aim: Learn how to separate objects touching each other
 //

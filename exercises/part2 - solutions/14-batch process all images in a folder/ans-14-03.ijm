@@ -1,4 +1,4 @@
-// Exercise 13.3 - Saving a result image. 
+// Exercise 14.3 - Saving a result image. 
 // 
 // Aim: Create a results folder if it doesn't exist and save a result image
 //

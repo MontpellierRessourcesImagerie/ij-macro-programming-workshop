@@ -1,4 +1,4 @@
-// Exercise 13.4 - Working on all images in a folder
+// Exercise 14.4 - Working on all images in a folder
 //
 // Aim: Learn how to apply a macro to all images in a folder,
 // load related images and save result images.

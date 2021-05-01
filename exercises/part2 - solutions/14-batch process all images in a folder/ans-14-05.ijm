@@ -1,4 +1,4 @@
-// Exercise 13.5 - Running a macro in batch-mode
+// Exercise 14.5 - Running a macro in batch-mode
 //
 // Aim: Learn to macros in batch-mode and use the log-window
 // to report progress.

@@ -1,4 +1,4 @@
-// Exercise 16.1 - Sort the rois and the result table by the values in a given column
+// Exercise 17.1 - Sort the rois and the result table by the values in a given column
 //
 // Aim: Learn how to work with result tables and the roi-manager
 //

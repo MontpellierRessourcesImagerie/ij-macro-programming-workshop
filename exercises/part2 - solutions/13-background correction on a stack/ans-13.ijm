@@ -24,16 +24,17 @@ useful commands:
 - ``run("Subtract...", "value=5 slice");``
 
 Your code starts after this line */
-for (i=1; /* replace this comment */ i++) {	// iterate over all frames of the time-series
-    setSlice(/* replace this comment */);	// set the current slice
+for (i=1; i<=nSlices; i++) {	// iterate over all frames of the time-series
+    setSlice(i);			// set the current slice
     getStatistics(area, mean);			// get the mean intensity of the current selection (the variable mean will be set to it).
-    run(/* replace this comment */);			// Remove the current selection before subtracting the mean from the image (otherwise it will just be subtracted from the selection).
-    run("Subtract...", "value=" /* replace this comment */ " slice");	// subtract the mean value of the background, measured on the current frame, from the current frame from the 
-    run(/* replace this comment */);										// Restore the original selection of a background region for the next iteration.
+    run("Select None");					// remove the current selection before subtracting the mean from the image (otherwise it will just be subtracted from the selection).
+    run("Subtract...", "value=" + mean + " slice");	// subtract the mean value of the background, measured on the current frame, from the current frame from the 
+    run("Restore Selection");						// restore the original selection of a background region for the next iteration.
 }
-/* Your code ends before this line */
+/* 
+Your code ends before this line 
 
-// The code below is for automatically checking the result. Please ignore it!
+The code below is for automatically checking the result. Please ignore it! */
 run("Select None");	
 imageId = getImageID();
 makeRectangle(530, 30, 78, 430);
