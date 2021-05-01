@@ -1,14 +1,17 @@
-// Exercise 18.1 - Show the rois of selected measurements
-//
-// Aim: Learn to link the results table to the image by using string processing and 
-// the roi manager.
-//
-//  Open the image images/16 in ImageJ, manually use the Threshold-Adjuster and the
-// Particle-Analyzer to add the rois of the nuclei to the roi-manager. Measure the rois in the
-// roi-manager. Select a number lines in the results table before running the macro.
-//* Complete the macro below that will create a selection on the image from the measurements 
-//* selected in the results table.
-// 
+/* 
+# Exercise 18.1 - Show the rois of selected measurements
+
+Aim: 
+- learn to link the results table to the image by using string processing and the roi manager.
+
+Open the image from the folder ``images/17`` in ImageJ! Manually use the Threshold-Adjuster and the
+Particle-Analyzer to add the rois of the nuclei to the roi-manager! Measure the rois in the
+roi-manager! Select a number of lines in the results table before running the macro!
+
+Complete the macro below, that will create a selection on the image from the measurements selected in the results table.
+
+After running the macro deselect the ``Show all`` option of the roi-manager to be able to see  the selected result rois.
+*/
 String.copyResults();				// Copies the result table into the clipboard
 selection = String.paste;			// String.paste answers the content of the clipboard
 // Your code starts after this line
@@ -22,7 +25,7 @@ for(i=0; i<lines.length; i++) {		// For each line in the results table...
 										// Indices in the roi-manager start with 0, those written in the result table with 1
 	indices = Array.concat(indices, index);	// Append the new index to the array indices.
 }
+roiManager("show none");
 roiManager("select", indices);
 if (indices.length>1) roiManager("Combine");
-// Your code ends before this line
- 
+/* Your code ends before this line */
