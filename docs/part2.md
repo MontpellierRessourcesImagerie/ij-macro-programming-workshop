@@ -9,5 +9,6 @@
     1. [Saving a Result Image](./ex/ex14-03.md)
     1. [Process all Images in a Folder](./ex/ex14-04.md)
     1. [Running a Macro in Batch-mode](./ex/ex14-05.md)  
-15. **[Measure Objects on all Images in a Folder ](./ex/ex15-01.md)**
-16. **[Separate Nuclei by Using a Binary Watershed ](./ex/ex16-01.md)**
+15. **[Measure Objects on all Images in a Folder](./ex/ex15-01.md)**
+16. **[Separate Nuclei by Using a Binary Watershed](./ex/ex16-01.md)**
+17. **[Sort the Results by the Values in a Given Column](./ex/ex17-01.md)**
