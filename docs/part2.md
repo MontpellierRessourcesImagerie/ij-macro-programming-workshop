@@ -12,3 +12,4 @@
 15. **[Measure Objects on all Images in a Folder](./ex/ex15-01.md)**
 16. **[Separate Nuclei by Using a Binary Watershed](./ex/ex16-01.md)**
 17. **[Sort the Results by the Values in a Given Column](./ex/ex17-01.md)**
+18. **[Display the ROIs of Selected Results on the Image](./ex/ex18-01.md)**
