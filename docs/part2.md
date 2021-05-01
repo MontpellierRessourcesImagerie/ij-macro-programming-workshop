@@ -9,3 +9,4 @@
     1. [Saving a Result Image](./ex/ex14-03.md)
     1. [Process all Images in a Folder](./ex/ex14-04.md)
     1. [Running a Macro in Batch-mode](./ex/ex14-05.md)  
+13. **[Measure Objects on all Images in a Folder ](./ex/ex15-01.md)**
