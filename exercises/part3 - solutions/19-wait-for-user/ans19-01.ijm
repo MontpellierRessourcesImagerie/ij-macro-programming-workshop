@@ -1,0 +1,48 @@
+/* 
+# Exercise 19.1 - Interactive macros and custom tables
+
+Aim: 
+- learn to use waitForUser to pause execution and let the user correct results
+- learn to use custom tables
+
+The macro will work on all tif images in a folder and all subfolders.
+It will count the objects in an image by detecting the maxima.
+Use the ``waitForUser`` command to pause the execution and let the user correct the count for each image!
+Use the commands
+- ``Table.create(   )``
+- ``Table.size(    )``
+- ``Table.set(    )``
+- ``Table.save(    )``
+
+to create and save a table ``Counts`` and to add a row containig the name of the image and the number of objects for each image.
+
+Run the macro on the folder ``images/15``!
+*/
+input = getDirectory("Input directory");
+output = getDirectory("Output directory");
+suffix = ".tif";
+Table.create("Counts");
+processFolder(input, output);
+
+function processFolder(input, output) {
+	list = getFileList(input);
+	for (i = 0; i < list.length; i++) {
+		if(File.isDirectory(list[i]))Table
+			processFolder(input + list[i], output);
+		if(endsWith(list[i], suffix))
+			processFile(input, output, list[i]);
+	}
+	Table.save(output + "Counts.xls", "Counts");
+}
+
+function processFile(input, output, file) {
+	open(input + file);
+	run("Find Maxima...", "noise=80 output=[Point Selection] exclude");
+	waitForUser("Correct and press ok!");
+	getSelectionCoordinates(xpoints, ypoints);
+	row = Table.size("Counts");
+	count = xpoints.length;
+	Table.set("Image", row, file, "Counts");
+	Table.set("count", row, count, "Counts");
+	close();
+}

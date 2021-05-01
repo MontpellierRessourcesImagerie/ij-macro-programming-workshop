@@ -6,9 +6,7 @@ input = getDirectory("Input directory");
 output = getDirectory("Output directory");
 
 suffix = ".tif";
-run("Table...", "name=Counts width=350 height=250");
-print("[Counts]", "\\Clear");
-print("[Counts]", "\\Headings:image\tcount");
+Table.create("Counts");
 processFolder(input);
 
 function processFolder(input) {
@@ -24,11 +22,10 @@ function processFolder(input) {
 function processFile(input, output, file) {
 	open(input + file);
 	run("Find Maxima...", "noise=80 output=[Point Selection] exclude");
-	// use the command waitForUser("<text>") to let the user correct the point selection before the execution continues//
-	roiManager("Reset");
-	print("[Results]", "\\Clear");
-	roiManager("Add");
-	roiManager("Measure");
-	print("[Counts]", file + "\t" + nResults); 
+	waitForUser("Correct and press ok!");// use the command waitForUser("<text>") to let the user correct the point selection before the execution continues//
+	getSelectionCoordinates(xpoints, ypoints);
+	row = Table.size("Counts");
+	Table.set("Image", row, file, "Counts");
+	Table.set("count", row, xpoints.length, "Counts");
 	close();
 }

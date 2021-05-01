@@ -1,0 +1,3 @@
+Define some function in the file macros/Library.txt. 
+Create a new macro and call the functions you defined in 
+macros/Library.txt.
