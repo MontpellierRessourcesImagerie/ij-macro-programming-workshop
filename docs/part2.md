@@ -1,4 +1,4 @@
-# Part 2 - Application Examples 1
+# Part 2 - Basic Application Examples
 
 ## Exercises
 
