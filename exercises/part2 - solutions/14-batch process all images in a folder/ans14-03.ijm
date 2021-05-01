@@ -19,15 +19,15 @@ You need the following commands:
 - ``close()``					Closes the current image.
 
 Your code starts after this line */
-
-
-
-
-
-
-
-
-
+open();
+path = File.directory;
+imageDAPI = File.name;
+File.mkdir(path + "out");
+imageRHOD = replace(imageDAPI, "dapi", "rhod");
+open(path + imageRHOD);
+run("Merge Channels...", "c2=["+imageRHOD+"] c3=["+imageDAPI+"]");
+save(path + "out/" + replace(imageDAPI, "dapi ", ""));
+close();
 /* 
 Your code ends before this line
 

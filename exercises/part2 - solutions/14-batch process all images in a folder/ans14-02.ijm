@@ -17,11 +17,12 @@ to this command. You need to replace ``title1`` and ``title2`` by the variables 
 the titles of the two open images. 
 
 Your code starts after this line */
-
-
-
-
-
+open();
+path = File.directory;
+imageDAPI = File.name;
+imageRHOD = replace(imageDAPI, "dapi", "rhod");
+open(path + imageRHOD);
+run("Merge Channels...", "c2=["+imageRHOD+"] c3=["+imageDAPI+"]");
 /* 
 Your code ends before this line 
 

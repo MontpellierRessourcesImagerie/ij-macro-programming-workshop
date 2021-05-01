@@ -20,11 +20,11 @@ Useful commands:
 
 Your code starts after this line 
 */
-// replace this comment by your code
+open();
 path = File.directory;
 imageDAPI = File.name;
-imageRHOD = replace(/*replace this comment by your code*/);
-// replace this comment by your code
+imageRHOD = replace(imageDAPI, "dapi", "rhod");
+open(path + imageRHOD);
 /* 
 Your code ends before this line
 
