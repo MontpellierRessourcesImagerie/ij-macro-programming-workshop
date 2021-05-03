@@ -12,4 +12,6 @@ Here is an online version of the exercises:
 
 Download and unzip [images.zip](http://dev.mri.cnrs.fr/attachments/download/2372/images.zip) to access the images needed to complete the exercises.
 
+You can download the presentation slides here: [Macro Programming with ImageJ.pdf](https://github.com/MontpellierRessourcesImagerie/ij-macro-programming-workshop/raw/master/Macro%20Programming%20with%20ImageJ.pdf)
+
 Have fun!
