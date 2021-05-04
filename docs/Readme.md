@@ -15,3 +15,5 @@ Download and unzip [images.zip](http://dev.mri.cnrs.fr/attachments/download/2372
 You can download the presentation slides here: [Macro Programming with ImageJ.pdf](https://github.com/MontpellierRessourcesImagerie/ij-macro-programming-workshop/raw/master/Macro%20Programming%20with%20ImageJ.pdf)
 
 Have fun!
+
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-9129-6403" href="https://orcid.org/0000-0002-9129-6403" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Volker Bäcker</a></div>
