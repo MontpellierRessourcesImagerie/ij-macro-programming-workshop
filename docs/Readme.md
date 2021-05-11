@@ -1,4 +1,6 @@
+<head>
 <meta name="google-site-verification" content="SVVm4-xspcAPFmODJrkl8DEGKvIEtdms2G76dkdna-k" />
+</head>
 
 # ImageJ Macro Programming for Biological Image Analysis
 <p align="center"><img src='http://dev.mri.cnrs.fr/attachments/download/2381/macro.png' width='300'/></p>
