@@ -19,7 +19,7 @@ Have fun!
 
 # Next session
 
-The next in-person session will be the 18.05-20.05. The deadline for submission is Friday, May 6, 2022 at
+The next in-person session will be the 18.05-20.05. The deadline for submission is Friday, May 6, 2022. Please pre-register at https://sondage.umontpellier.fr/ls/index.php/724251?lang=fr. Address questions about the resgistration to
 [ateliers-technologiques@biocampus.cnrs.fr](mailto:ateliers-technologiques@biocampus.cnrs.fr)
 
 # Further macro programming resources (third party):
