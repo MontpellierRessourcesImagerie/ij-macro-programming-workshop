@@ -20,7 +20,7 @@ Have fun!
 # Next session
 
 The next in-person session will be the 18.05-20.05. The deadline for submission is Friday, May 6, 2022 at
-ateliers-technologiques@biocampus.cnrs.fr
+[ateliers-technologiques@biocampus.cnrs.fr](mailto:ateliers-technologiques@biocampus.cnrs.fr)
 
 # Further macro programming resources (third party):
 
