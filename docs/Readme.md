@@ -11,7 +11,7 @@ Here is an online version of the exercises:
 - [Part 2 - Basic Application Examples](./part2.md)
 - [Part 3 - Advanced Application Examples](./part3.md)
 
-Download and unzip [images.zip](http://dev.mri.cnrs.fr/attachments/download/2372/images.zip) to access the images needed to complete the exercises.
+Download and unzip [images.zip](https://dev.mri.cnrs.fr/attachments/download/2591/images.zip) to access the images needed to complete the exercises.
 
 You can download the presentation slides here: [Macro Programming with ImageJ.pdf](https://github.com/MontpellierRessourcesImagerie/ij-macro-programming-workshop/raw/master/Macro%20Programming%20with%20ImageJ.pdf)
 
