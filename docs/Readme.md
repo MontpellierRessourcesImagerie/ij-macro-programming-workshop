@@ -17,11 +17,6 @@ You can download the presentation slides here: [Macro Programming with ImageJ.pd
 
 Have fun!
 
-# Next session
-
-The next in-person session will be the 18.05-20.05. The deadline for submission is Friday, May 6, 2022. Please pre-register at https://sondage.umontpellier.fr/ls/index.php/724251?lang=fr. Address questions about the resgistration to
-[ateliers-technologiques@biocampus.cnrs.fr](mailto:ateliers-technologiques@biocampus.cnrs.fr)
-
 # Further macro programming resources (third party):
 
 - [Introduction to	ImageJ	Macro](https://indico.mpi-cbg.de/event/39/attachments/50/79/IA_Course_IJ_Macro_2017_booklet.pdf)
