@@ -11,7 +11,7 @@ in the two dialogs that will be displayed when running the macro.
 Use string concatenation to produce the output String.
 */
 firstname = getString("Enter your first name: ", "Alan");
-lastname = getString("Enter your last name:", "Turing");
+lastname = getString("Enter_your last name:", "Turing");
 "\\Clear";
 /* Your code starts after this line */
 print("Hello " + firstname + " " + lastname + "!");
