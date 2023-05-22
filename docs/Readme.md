@@ -27,5 +27,6 @@ Have fun!
 
 - [Bioimage Data Analysis](https://analyticalscience.wiley.com/do/10.1002/was.00050003/full/bioimagedataanalysis.pdf)
 - [Bioimage Data Analysis Workflows](https://link.springer.com/book/10.1007%2F978-3-030-22386-1)
+- [Bioimage Data Analysis Workflows ‒ Advanced Components and Methods](https://link.springer.com/content/pdf/10.1007/978-3-030-76394-7.pdf?pdf=button)
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-9129-6403" href="https://orcid.org/0000-0002-9129-6403" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Volker Bäcker</a></div>
